@@ -74,31 +74,31 @@
 
 ;## these strings will be used in the mapping-tracker to add more information to log-entries
 ;## these strings will be added, so instead of only displaying "bunker", the entry will read "heist: bunker"
-		maps_heist			=	"heist"				;## PoE1 only
-		maps_logbook			=	"logbook"			;## PoE1 and PoE2
-		maps_delirium			=	"simulacrum"			;## PoE1 and PoE2
-		maps_boss			=	"boss"				;## PoE1 and PoE2
+		maps_heist			=	"강탈"				;## PoE1 only
+		maps_logbook			=	"탐험 일지"			;## PoE1 and PoE2
+		maps_delirium			=	"복제된 영토"			;## PoE1 and PoE2
+		maps_boss			=	"보스"				;## PoE1 and PoE2
 		maps_tower			=	"tower"				;## PoE2 only, used to tag tower-maps, e.g. <sinking spire (tower)> instead of just <sinking spire>
 
 ;## these strings will replace certain map names entirely, e.g. <boss: elder> instead of <absence of value and meaning>
-		maps_maven_invitation		=	"maven invitation"		;## PoE1 only (whole block)
-		maps_maven			=	"maven"
-		maps_hunger			=	"infinite hunger"
-		maps_blackstar			=	"black star"
-		maps_exarch			=	"searing exarch"
-		maps_eater			=	"eater of worlds"
-		maps_shaper			=	"shaper"
-		maps_elder			=	"elder"
-		maps_elder			=	"uber elder"
-		maps_oshabi			=	"oshabi"
-		maps_atziri			=	"atziri"
-		maps_atziri			=	"uber atziri"
-		maps_sirus			=	"sirus"
-		maps_cortex			=	"cortex"
+		maps_maven_invitation		=	"메이븐의 초대"		;## PoE1 only (whole block)
+		maps_maven			=	"메이븐"
+		maps_hunger			=	"무한한 허기"
+		maps_blackstar			=	"검은 별"
+		maps_exarch			=	"작열의 총주교"
+		maps_eater			=	"세계의 포식계"
+		maps_shaper			=	"쉐이퍼"
+		maps_elder			=	"엘더"
+		maps_elder			=	"우버 엘더"
+		maps_oshabi			=	"오샤비"
+		maps_atziri			=	"앗지리"
+		maps_atziri			=	"우버 앗지리"
+		maps_sirus			=	"사이러스"
+		maps_cortex			=	"코텍스"
 
 
-		maps_ritualboss			=	"king in the mists"		;## PoE1 and PoE2
-		maps_ritualboss			=	"crux of nothingness"		;## PoE1 and PoE2, the map-name of the king fight
+		maps_ritualboss			=	"연무 속의 왕"		;## PoE1 and PoE2
+		maps_ritualboss			=	"허무의 핵심"		;## PoE1 and PoE2, the map-name of the king fight
 
 
 		maps_xesht			=	"xesht"				;## PoE2 only (whole block)
@@ -148,31 +148,31 @@
 
 ;## these strings are required to make tracking in the lab-overlay possible on non-English clients
 ;## these are not case-sensitive but still need to match the in-game names 1:1
-		lab_aspirant's trial		=	"aspirant's trial"		;## PoE1 only (whole block)
-		lab_basilica annex		=	"basilica annex"
-		lab_basilica atrium		=	"basilica atrium"
-		lab_basilica halls		=	"basilica halls"
-		lab_basilica passage		=	"basilica passage"
-		lab_domain crossing		=	"domain crossing"
-		lab_domain enclosure		=	"domain enclosure"
-		lab_domain path			=	"domain path"
-		lab_domain walkways		=	"domain walkways"
-		lab_estate crossing		=	"estate crossing"
-		lab_estate enclosure		=	"estate enclosure"
-		lab_estate path			=	"estate path"
-		lab_estate walkways		=	"estate walkways"
-		lab_mansion annex		=	"mansion annex"
-		lab_mansion atrium		=	"mansion atrium"
-		lab_mansion halls		=	"mansion halls"
-		lab_mansion passage		=	"mansion passage"
-		lab_sanitorium annex		=	"sanitorium annex"
-		lab_sanitorium atrium		=	"sanitorium atrium"
-		lab_sanitorium halls		=	"sanitorium halls"
-		lab_sanitorium passage		=	"sanitorium passage"
-		lab_sepulchre annex		=	"sepulchre annex"
-		lab_sepulchre atrium		=	"sepulchre atrium"
-		lab_sepulchre halls		=	"sepulchre halls"
-		lab_sepulchre passage		=	"sepulchre passage"
+		lab_aspirant's trial		=	"지망자의 시험"		;## PoE1 only (whole block)
+		lab_basilica annex		=	"교회당 별관"
+		lab_basilica atrium		=	"교회당 안마당"
+		lab_basilica halls		=	"교회당 복도"
+		lab_basilica passage		=	"교회당 통로"
+		lab_domain crossing		=	"영토 교차로"
+		lab_domain enclosure		=	"영토 울타리"
+		lab_domain path			=	"영토 보도"
+		lab_domain walkways		=	"영토 통로"
+		lab_estate crossing		=	"사유지 교차로"
+		lab_estate enclosure		=	"사유지 울타리"
+		lab_estate path			=	"사유지 보도"
+		lab_estate walkways		=	"사유지 통로"
+		lab_mansion annex		=	"대저택 별관"
+		lab_mansion atrium		=	"대저택 안마당"
+		lab_mansion halls		=	"대저택 복도"
+		lab_mansion passage		=	"대저택 통로"
+		lab_sanitorium annex		=	"요양원 별관"
+		lab_sanitorium atrium		=	"요양원 안마당"
+		lab_sanitorium halls		=	"요양원 복도"
+		lab_sanitorium passage		=	"요양원 통로"
+		lab_sepulchre annex		=	"매장소 별관"
+		lab_sepulchre atrium		=	"매장소 안마당"
+		lab_sepulchre halls		=	"매장소 복도"
+		lab_sepulchre passage		=	"매장소 통로"
 
 
 
