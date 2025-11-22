@@ -54,8 +54,8 @@
 		system_font			=	"Fontin SmallCaps"		;## except for Fontin SmallCaps, the specified font-type has to be installed on the system
 		system_fullstop			=	"."				;## the type of punctuation mark the language uses at the end of a sentence (e.g. Japanese uses a different fullstop)
 		system_parenthesis		=	"(#)"				;## the level-up message in the game's client.txt log-file "CHARACTER (CLASS) is now Level X" uses a different parenthesis in Japanese at least
-		system_poedb_lang		=	"us"				;## which language to use on poedb (available: tw, cn, kr, us, jp, ru, po, th, fr, de, es)
-		system_poedb_lang		=	"modifiers"			;## it's the localized name of this section on poeDB: https://poedb.tw/us/Modifiers
+		system_poedb_lang		=	"kr"				;## which language to use on poedb (available: tw, cn, kr, us, jp, ru, po, th, fr, de, es)
+		system_poedb_lang		=	"속성 부여"			;## it's the localized name of this section on poeDB: https://poedb.tw/us/Modifiers
 
 
 ;#####################################################
@@ -64,6 +64,7 @@
 
 ;## these names will be shown in a tooltip when hovering over the "credits" label	;## the tooltip is segmented into smaller boxes
 		contributor			=	"lailloken"			;## you can add additional <contributor> lines, and each value will have its own box
+		contributor			=	"zmtq05"
 
 
 
@@ -134,14 +135,15 @@
 ;## replace the English text-strings with the corresponding ones from the target language
 ;## REMINDERS: case-sensitivity, match text in chat-window
 		log_location			=	"0"				;## PoE1 only (missing from PoE2?), certain languages may highlight location-names with characters that need to be removed (e.g. German: 'Hohenpforte', which would require log_location = "'")
-		log_enter			=	"You have entered"		;## PoE1 only (missing from PoE2?), as mentioned earlier, this key may need placeholders depending on the target language
+		log_enter			=	"#에 진입했습니다"		;## PoE1 only (missing from PoE2?), as mentioned earlier, this key may need placeholders depending on the target language
 
 ;## -----------------------------------------------------------------------------------
-		log_level			=	"is now level"			;## PoE1 and PoE2 (whole block), when your character levels up
-		log_whois			=	"is a level # in the"		;## using the /whois in-game command, e.g. "Lailloken is a level 69 Champion in the Standard League..."
-		log_slain			=	"has been slain"		;## when your character dies
-		log_suicide			=	"has committed suicide"		;## when your character dies from self-damage
-		log_killed			=	"You have killed # monsters"	;## when activating the "/kills" command
+		log_level			=	"님이 #레벨이 되었습니다"			;## PoE1 and PoE2 (whole block), when your character levels up
+		log_whois			=	"리그에서 # 레벨이며"		;## using the /whois in-game command, e.g. "Lailloken is a level 69 Champion in the Standard League..."
+		log_whois_class			=	"리그에서 # 레벨이며"		;## similar to above, but specifically isolates a string containing class/ascendancy and the surrounding words, then removes numbers and surrounding words
+		log_slain			=	"님이 사망했습니다"		;## when your character dies
+		log_suicide			=	"님이 스스로 목숨을 끊었습니다"		;## when your character dies from self-damage
+		log_killed			=	"#개체의 몬스터를 죽였습니다"	;## when activating the "/kills" command
 
 
 ;## these strings are required to make tracking in the lab-overlay possible on non-English clients
@@ -181,48 +183,49 @@
 ;## colons are included in the value and not hard-coded (just in case a language uses a different punctuation mark), so pay attention to how text is displayed in the chat-window
 ;## don't leave out the punctuation mark because it's important for accuracy and to avoid unwanted matches (especially Rog)
 ;## REMINDER: case-sensitivity, match text in chat-window
-		log_delirium			=	"Strange Voice:"			;## PoE1 and PoE2
+		log_delirium			=	"이상한 목소리:"			;## PoE1 and PoE2
 
-		log_blight			=	"Sister Cassia:"			;## PoE1 only (whole block)
-		log_harvest			=	"Oshabi:"
-		log_incursion			=	"Alva, Master Explorer:"
-		log_bestiary			=	"Einhar, Beastmaster:"
-		log_delve			=	"Niko, Master of the Depths:"
-		log_betrayal			=	"Jun, Veiled Master:"
-		log_betrayal			=	"Aisling Laffrey, The Silent Butcher:"
-		log_betrayal			=	"Cameria the Coldblooded:"
-		log_betrayal			=	"Elreon, Light's Judge:"
-		log_betrayal			=	"Gravicius Reborn:"
-		log_betrayal			=	"Guff "Tiny" Grenn:"
-		log_betrayal			=	"Haku, Warmaster:"
-		log_betrayal			=	"Hillock, the Blacksmith:"
-		log_betrayal			=	"It That Fled:"
-		log_betrayal			=	"Janus Perandus:"
-		log_betrayal			=	"Thane Jorgin the Banished:"
-		log_betrayal			=	"Korell Goya, Son of Stone:"
-		log_betrayal			=	"Leo, Wolf of the Pits:"
-		log_betrayal			=	"Riker Maloney, Midnight Tinkerer:"
-		log_betrayal			=	"Rin Yuushu:"
-		log_betrayal			=	"Tora, the Culler:"
-		log_betrayal			=	"Vagan, Victory's Herald:"
-		log_betrayal			=	"Vorici, Silent Brother:"
-		log_ultimatum			=	"The Trialmaster:"
-		log_maven			=	"The Maven:"
-		log_seer			=	"The Nameless Seer has appeared nearby"
-		log_mist			=	"A Reflecting Mist has manifested nearby"
+		log_blight			=	"수녀 카시아:"			;## PoE1 only (whole block)
+		log_harvest			=	"오샤비:"
+		log_incursion			=	"탐험의 대가 알바:"
+		log_bestiary			=	"야수의 대가 아인하르:"
+		log_delve			=	"지하의 대가 니코:"
+		log_betrayal			=	"장막의 대가 준:"
+		log_betrayal			=	"침묵의 도살자 아이슬링 라프리:"
+		log_betrayal			=	"냉혈한 카메리아:"
+		log_betrayal			=	"빛의 심판자 엘레온:"
+		log_betrayal			=	"부활한 그라비시우스:"
+		log_betrayal			=	""조그만" 거프 그렌:"
+		log_betrayal			=	"전쟁의 대가 하쿠:"
+		log_betrayal			=	"대장장이 힐록:"
+		log_betrayal			=	"달아난 그것:"
+		log_betrayal			=	"야누스 페란두스:"
+		log_betrayal			=	"추방자 테인 요르긴:"
+		log_betrayal			=	"돌의 아들 코렐 고야:"
+		log_betrayal			=	"구덩이의 늑대 레오:"
+		log_betrayal			=	"심야의 수선공 라이커 말로니:"
+		log_betrayal			=	"린 유슈:"
+		log_betrayal			=	"감별사 토라:"
+		log_betrayal			=	"승리의 전령 베이건:"
+		log_betrayal			=	"침묵의 수사 보리치"
+		log_ultimatum			=	"시련의 대가:"
+		log_maven			=	"메이븐:"
+		log_seer			=	"주변에 이름 없는 예견자가 나타났습니다"
+		log_mist			=	"주변에 투영하는 안개가 나타났습니다"
 		log_infamous			=	", the Cyaxan"
 		log_infamous			=	", the Keitan"
 		log_infamous			=	", the Azadin"
 		log_infamous			=	", the Bardiyan"
-		log_graftblood			=	"Equipped Grafts"			;## there are 2 (or more) warnings for graftblood almost being full
+		log_graftblood			=	"장착한 기생체"			;## there are 2 (or more) warnings for graftblood almost being full
+
 
 
 ;## expedition note: in PoE1, there is a difference in displayed names depending on whether the NPCs greet you when they first see you in a map (Gwennen, the Gambler) or whether the encounter has finished (Gwennen)
 ;## always use the name displayed when they greet you
-		log_expedition			=	"Dannig, Warrior Skald:"	;## PoE1 only (whole block)
-		log_expedition			=	"Gwennen, the Gambler:"
-		log_expedition			=	"Rog:"				;## for some reason, Rog is always displayed as simply "Rog", regardless of when he speaks (at least in English)
-		log_expedition			=	"Tujen, the Haggler:"
+		log_expedition			=	"전사 시인 대닉:"	;## PoE1 only (whole block)
+		log_expedition			=	"도박사 그위넨:"
+		log_expedition			=	"중개인 로그:"				;## for some reason, Rog is always displayed as simply "Rog", regardless of when he speaks (at least in English)
+		log_expedition			=	"거간꾼 투젠:"
 
 ;## -----------------------------------------------------------------------------------
 		log_expedition 2		=	"Dannig, Warrior Skald:"			;## PoE2 only
