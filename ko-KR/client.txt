@@ -254,7 +254,7 @@
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item
 		items_unidentified		=	"미확인"						;## PoE1 and PoE2 (whole block)
-		items_unmodifiable		=	"Unmodifiable"						;## example: memories (atlas item), sanctum relics
+		items_unmodifiable		=	"변경불가"						;## example: memories (atlas item), sanctum relics
 		items_corrupted			=	"타락"
 		items_mirrored			=	"복제됨"
 		items_unequippable		=	"아이템 착용 불가. 아이템 효과 미적용" ;## when you have an item equipped but lack the required attributes
