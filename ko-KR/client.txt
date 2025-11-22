@@ -253,185 +253,185 @@
 		items_uncut_gem			=	"Uncut Spirit Gem"
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item
-		items_unidentified		=	"Unidentified"						;## PoE1 and PoE2 (whole block)
+		items_unidentified		=	"미확인"						;## PoE1 and PoE2 (whole block)
 		items_unmodifiable		=	"Unmodifiable"						;## example: memories (atlas item), sanctum relics
-		items_corrupted			=	"Corrupted"
-		items_mirrored			=	"Mirrored"
-		items_unequippable		=	"You cannot use this item. Its stats will be ignored"	;## when you have an item equipped but lack the required attributes
+		items_corrupted			=	"타락"
+		items_mirrored			=	"복제됨"
+		items_unequippable		=	"아이템 착용 불가. 아이템 효과 미적용" ;## when you have an item equipped but lack the required attributes
 
 
-		items_armour			=	"Armour:"						;## PoE1 and PoE2 (whole block)
-		items_evasion			=	"Evasion Rating:"
-		items_energy			=	"Energy Shield:"
-		items_ward			=	"Ward:"
-		items_aps			=	"Attacks per Second:"
-		items_quality			=	"Quality:"
-		items_phys_dmg			=	"Physical Damage:"
-		items_dmg			=	"# Damage:"
-		items_chaos_dmg			=	"Chaos Damage:"
+		items_armour			=	"방어도:"						;## PoE1 and PoE2 (whole block)
+		items_evasion			=	"회피:"
+		items_energy			=	"에너지 보호막:"
+		items_ward			=	"수호:"
+		items_aps			=	"초당 공격 횟수:"
+		items_quality			=	"퀄리티:"
+		items_phys_dmg			=	"물리 피해:"
+		items_dmg			=	"# 피해:"
+		items_chaos_dmg			=	"카오스 피해:"
 
-		items_ele_dmg			=	"Elemental Damage:"					;## PoE1 only, ele-dmg is displayed differently
+		items_ele_dmg			=	"원소 피해:"					;## PoE1 only, ele-dmg is displayed differently
 
 		items_map_waystonechance	=	"Waystone Drop Chance:"					;## PoE2 only (whole block)
 		items_map_revives		=	"Revives Available:"
 		items_sockets			=	"Sockets:"
 
 
-		items_maptier			=	"Map Tier:"						;## PoE1 only (whole block)
-		items_mapreward			=	"Reward:"						;## T17 valdo maps have specific rewards
-		items_mapreward_foil		=	"Foil "							;## also valdo rewards
+		items_maptier			=	"지도 등급:"						;## PoE1 only (whole block)
+		items_mapreward			=	"보상:"						;## T17 valdo maps have specific rewards
+		items_mapreward_foil		=	"반짝이 "							;## also valdo rewards
 
 
-		items_mapquantity		=	"Item Quantity:"					;## PoE1 and PoE2
-		items_maprarity			=	"Item Rarity:"
-		items_mappacksize		=	"Monster Pack Size:"
+		items_mapquantity		=	"아이템 수량:"					;## PoE1 and PoE2
+		items_maprarity			=	"아이템 희귀도:"
+		items_mappacksize		=	"몬스터 무리 규모:"
 
 
-		items_mapmaps			=	"More Maps:"						;## PoE1 only (whole block), T17 maps received various multipliers in 3.24.1
-		items_mapscarabs		=	"More Scarabs:"
-		items_mapcurrency		=	"More Currency:"
+		items_mapmaps			=	"지도 더 많음:"						;## PoE1 only (whole block), T17 maps received various multipliers in 3.24.1
+		items_mapscarabs		=	"갑충석 더 많음:"
+		items_mapcurrency		=	"화폐 더 많음:"
 
 
-		items_stack			=	"Stack Size:"						;## PoE1 and PoE2, for stackable items
+		items_stack			=	"중첩 개수:"						;## PoE1 and PoE2, for stackable items
 
 
-		items_mapname			=	"# Map"							;## PoE1 only (whole block), the format of names on map-items, e.g. Frozen River Map (German, for example, uses 'Frozen River'-Map)
-		items_elderguardian		=	"Map is occupied by"					;## the implicits on elder-guardian maps
-		items_enslaver			=	"The Enslaver"
-		items_eradicator		=	"The Eradicator"
-		items_constrictor		=	"The Constrictor"
-		items_purifier			=	"The Purifier"
+		items_mapname			=	"# 지도"							;## PoE1 only (whole block), the format of names on map-items, e.g. Frozen River Map (German, for example, uses 'Frozen River'-Map)
+		items_elderguardian		=	"지역의 #의 영향을 받음"					;## the implicits on elder-guardian maps
+		items_enslaver			=	"조종자"
+		items_eradicator		=	"박멸자"
+		items_constrictor		=	"위압자"
+		items_purifier			=	"정화자"
 
 
 		items_conqueror			=	"Map contains # Citadel"				;## PoE1 only (whole block), the implicits on conqueror maps
-		items_baran			=	"Baran"
-		items_drox			=	"Drox"
-		items_al-hezmin			=	"Al-Hezmin"
-		items_veritania			=	"Veritania"
+		items_baran			=	"바란"
+		items_drox			=	"드록스"
+		items_al-hezmin			=	"알-헤즈민"
+		items_veritania			=	"베리타니아"
 
 
 ;## these strings are displayed in the in-game tooltip when hovering over an item and holding the hotkey for advanced item descriptions (usually ALT)
-		items_prefix			=	"Prefix Modifier"			;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
-		items_prefix_allowed		=	"Prefix Modifier# allowed"		;## implicit that modifies affix-counts (it's important to place the placeholder in a way that matches singular and plural forms)
-		items_suffix			=	"Suffix Modifier"
-		items_suffix_allowed		=	"Suffix Modifier# allowed"
+		items_prefix			=	"접두어 속성 부여"			;## PoE1 only (whole block), either missing from PoE2 at the moment, or not relevant
+		items_prefix_allowed		=	"0"		;## implicit that modifies affix-counts (it's important to place the placeholder in a way that matches singular and plural forms)
+		items_suffix			=	"접미어 속성 부여"
+		items_suffix_allowed		=	"0"
 		items_affix			=	""#""					;## in my limited testing, I only found Japanese to use something other than quotation marks (「#」)
-		items_uniquemod			=	"Unique Modifier"
-		items_implicit			=	"Implicit Modifier"
-		items_implicit_exarch		=	"Searing Exarch Implicit Modifier"
-		items_implicit_eater		=	"Eater of Worlds Implicit Modifier"
-		items_implicit_vaal		=	"Corruption Implicit Modifier"
-		items_implicit_tiers		=	"Lesser"				;## the six types of eldritch-implicit tiers, in ascending order
-		items_implicit_tiers		=	"Greater"
-		items_implicit_tiers		=	"Grand"
-		items_implicit_tiers		=	"Exceptional"
-		items_implicit_tiers		=	"Exquisite"
-		items_implicit_tiers		=	"Perfect"
-		items_tier			=	"Tier:"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
-		items_unscalable		=	"Unscalable Value"			;## this is displayed next to certain modifiers, e.g. "Hits cannot be evaded", "Socketed gems are supported by XYZ"
+		items_uniquemod			=	"고유 속성 부여"
+		items_implicit			=	"고정 속성 부여"
+		items_implicit_exarch		=	"작열의 총주교 고정 속성"
+		items_implicit_eater		=	"세계 포식자 고정 속성"
+		items_implicit_vaal		=	"타락 고정 속성 부여"
+		items_implicit_tiers		=	"하급"				;## the six types of eldritch-implicit tiers, in ascending order
+		items_implicit_tiers		=	"상급"
+		items_implicit_tiers		=	"우수한"
+		items_implicit_tiers		=	"특출난"
+		items_implicit_tiers		=	"정교한"
+		items_implicit_tiers		=	"완벽한"
+		items_tier			=	"등급:"					;## this refers to modifier tiers, usually displayed as "(Tier: X)"
+		items_unscalable		=	"변경이 불가능한 값"	;## this is displayed next to certain modifiers, e.g. "Hits cannot be evaded", "Socketed gems are supported by XYZ"
 
 
 ;## these strings are displayed in the item-text when copying advanced item descriptions into clipboard (usually ALT + CTRL + C)
-		items_ilevel			=	"Item Level:"			;## PoE1 and PoE2 (whole block)
-		items_requirements		=	"Requirements:"
-		items_level			=	"Level:"
-		items_str			=	"Strength:"			;## for some reason, unidentified items show full attribute-strings, while ID'd ones show abbreviations
-		items_str			=	"Str:"
-		items_dex			=	"Dexterity:"
-		items_dex			=	"Dex:"
-		items_int			=	"Intelligence:"
-		items_int			=	"Int:"
+		items_ilevel			=	"아이템 레벨:"			;## PoE1 and PoE2 (whole block)
+		items_requirements		=	"요구사항:"
+		items_level			=	"레벨:"
+		items_str			=	"힘:"			;## for some reason, unidentified items show full attribute-strings, while ID'd ones show abbreviations
+		items_str			=	"힘:"
+		items_dex			=	"민첩:"
+		items_dex			=	"민첩:"
+		items_int			=	"지능:"
+		items_int			=	"지능:"
 
 
-		items_rarity			=	"Rarity:"			;## PoE1 and PoE2 (whole block), important: every string in the following block has to match the one in the "Rarity: XYZ" line in the clipboard-info
-		items_rare			=	"Rare"				;## do not mix these strings with those from the "Item Class: XYZ" line (class and rarity are sometimes similar but not 100% the same)
-		items_unique			=	"Unique"
-		items_normal			=	"Normal"
-		items_magic			=	"Magic"
-		items_currency			=	"Currency"
-		items_gem			=	"Gem"
+		items_rarity			=	"아이템 희귀도:"			;## PoE1 and PoE2 (whole block), important: every string in the following block has to match the one in the "Rarity: XYZ" line in the clipboard-info
+		items_rare			=	"희귀"
+		items_unique			=	"고유"
+		items_normal			=	"일반"
+		items_magic			=	"마법"
+		items_currency			=	"화폐"
+		items_gem			=	"젬"
 
 
-		items_class			=	"Item Class:"			;## PoE1 and PoE2, important: every string in the following lines has to match the one in the "Item Class: XYZ" line in the clipboard-info
-		items_relics			=	"Relics"			;## Sanctum/Sekhema Relics
+		items_class			=	"아이템 종류:"			;## PoE1 and PoE2, important: every string in the following lines has to match the one in the "Item Class: XYZ" line in the clipboard-info
+		items_relics			=	"유물"			;## Sanctum/Sekhema Relics
 		items_gem			=	"Support Gems"			;## PoE2 only
-		items_map fragments		=	"Map Fragments"			;## PoE1 only (rest of block)
-		items_heist brooches		=	"Heist Brooches"
-		items_heist cloaks		=	"Heist Cloaks"
-		items_heist gear		=	"Heist Gear"
-		items_heist tools		=	"Heist Tools"
+		items_map fragments		=	"지도 조각"			;## PoE1 only (rest of block)
+		items_heist brooches		=	"강탈 브로치"
+		items_heist cloaks		=	"강탈 망토"
+		items_heist gear		=	"강탈 장비"
+		items_heist tools		=	"강탈 도구"
 
 											;## PoE1 only, the following strings come in groups of three
-		items_shaper			=	"Shaper Item"			;## the first string is found at the very end of an item's copied data
-		items_shaper_prefix		=	"The Shaper's"			;## the second string is found in every prefix
-		items_shaper_suffix		=	"of Shaping"			;## the third string is found in every suffix
+		items_shaper			=	"쉐이퍼 아이템"			;## the first string is found at the very end of an item's copied data
+		items_shaper_prefix		=	"쉐이퍼의"			;## the second string is found in every prefix
+		items_shaper_suffix		=	"형성"			;## the third string is found in every suffix
 
-		items_elder			=	"Elder Item"
-		items_elder_prefix		=	"The Elder's"
-		items_elder_suffix		=	"of the Elder"
+		items_elder			=	"엘더 아이템"
+		items_elder_prefix		=	"엘더의"
+		items_elder_suffix		=	"엘더"
 
-		items_crusader			=	"Crusader Item"
-		items_crusader_prefix		=	"Crusader's"
-		items_crusader_suffix		=	"of the Crusade"
+		items_crusader			=	"십자군 아이템"
+		items_crusader_prefix		=	"십자군의"
+		items_crusader_suffix		=	"십자군"
 
-		items_redeemer			=	"Redeemer Item"
-		items_redeemer_prefix		=	"Redeemer's"
-		items_redeemer_suffix		=	"of Redemption"
+		items_redeemer			=	"대속자 아이템"
+		items_redeemer_prefix		=	"대속자의"
+		items_redeemer_suffix		=	"구원"
 
-		items_hunter			=	"Hunter Item"
-		items_hunter_prefix		=	"Hunter's"
-		items_hunter_suffix		=	"of the Hunt"
+		items_hunter			=	"사냥꾼 아이템"
+		items_hunter_prefix		=	"사냥꾼의"
+		items_hunter_suffix		=	"사냥꾼"
 
-		items_warlord			=	"Warlord Item"
-		items_warlord_prefix		=	"Warlord's"
-		items_warlord_suffix		=	"of the Conquest"
+		items_warlord			=	"전쟁군주 아이템"
+		items_warlord_prefix		=	"전쟁군주의"
+		items_warlord_suffix		=	"점령자"
 
-		items_synthesis			=	"Synthesised Item"
+		items_synthesis			=	"결합된 아이템"
 
 
 ;## these strings are the current(ly planned) item-classes for PoE2
 ;## relevant for poedb context-menu link and item-info feature
 ;## has to match the strings COPIED from the item (not while hovering)
-		items_class_Claws		=	"Claws"
-		items_class_Daggers		=	"Daggers"
-		items_class_Wands		=	"Wands"
-		items_class_One Hand Swords	=	"One Hand Swords"
-		items_class_One Hand Axes	=	"One Hand Axes"
-		items_class_One Hand Maces	=	"One Hand Maces"
-		items_class_Sceptres		=	"Sceptres"
+		items_class_Claws		=	"클로"
+		items_class_Daggers		=	"단검"
+		items_class_Wands		=	"완드"
+		items_class_One Hand Swords	=	"한손 검"
+		items_class_One Hand Axes	=	"한손 도끼"
+		items_class_One Hand Maces	=	"한손 철퇴"
+		items_class_Sceptres		=	"셉터"
 		items_class_Spears		=	"Spears"
 		items_class_Flails		=	"Flails"
-		items_class_Bows		=	"Bows"
-		items_class_Staves		=	"Staves"
-		items_class_Two Hand Swords	=	"Two Hand Swords"
-		items_class_Two Hand Axes	=	"Two Hand Axes"
-		items_class_Two Hand Maces	=	"Two Hand Maces"
+		items_class_Bows		=	"활"
+		items_class_Staves		=	"지팡이"
+		items_class_Two Hand Swords	=	"양손 검"
+		items_class_Two Hand Axes	=	"양손 도끼"
+		items_class_Two Hand Maces	=	"양손 철퇴"
 		items_class_Quarterstaves	=	"Quarterstaves"
 		items_class_Crossbows		=	"Crossbows"
 		items_class_Traps		=	"Traps"
-		items_class_Amulets		=	"Amulets"
-		items_class_Rings		=	"Rings"
-		items_class_Belts		=	"Belts"
-		items_class_Gloves		=	"Gloves"
-		items_class_Boots		=	"Boots"
-		items_class_Body Armours	=	"Body Armours"
-		items_class_Helmets		=	"Helmets"
-		items_class_Quivers		=	"Quivers"
+		items_class_Amulets		=	"목걸이"
+		items_class_Rings		=	"반지"
+		items_class_Belts		=	"허리띠"
+		items_class_Gloves		=	"장갑"
+		items_class_Boots		=	"장화"
+		items_class_Body Armours	=	"갑옷"
+		items_class_Helmets		=	"투구"
+		items_class_Quivers		=	"화살통"
 		items_class_Foci		=	"Foci"
-		items_class_Shields		=	"Shields"
+		items_class_Shields		=	"방패"
 		items_class_Bucklers		=	"Bucklers"
-		items_class_Jewels		=	"Jewels"
-		items_class_Life Flasks		=	"Life Flasks"
-		items_class_Mana Flasks		=	"Mana Flasks"
+		items_class_Jewels		=	"주얼"
+		items_class_Life Flasks		=	"생명력 플라스크"
+		items_class_Mana Flasks		=	"마나 플라스크"
 		items_class_Charms		=	"Charms"
 		items_class_Socketable		=	"Socketable"		;## runes and soul cores
 
 
 ;## these are mod-related strings in item tooltips, e.g. "+X to Armour", "+X to maximum Energy Shield"
-		mods_cluster_enchant		=	"Adds # Passive Skills"							;## PoE1 only (whole block), the first line on cluster jewels: "Adds X Passive Skills (enchant)"
-		mods_cluster_passive		=	"Added Small Passive Skills grant:"
-		mods_cluster_passive		=	"Added Small Passive Skills also grant:"
-		mods_cluster_passive		=	"1 Added Passive Skill is"						;## mods that provide a notable, e.g. "1 Added Passive Skill is Magnifier"
+		mods_cluster_enchant		=	"패시브 스킬 #개 추가"							;## PoE1 only (whole block), the first line on cluster jewels: "Adds X Passive Skills (enchant)"
+		mods_cluster_passive		=	"추가된 소형 패시브 스킬 효과:"
+		mods_cluster_passive		=	"추가되는 소형 패시브 스킬이"
+		mods_cluster_passive		=	"# 패시브 스킬 1개 추가"						;## mods that provide a notable, e.g. "1 Added Passive Skill is Magnifier"
 		mods_cluster_remove		=	"Dagger Attacks deal increased Damage with Hits and Ailments"		;## the %-values need to be removed from this block of values ("deal x% damage" -> "deal damage")
 		mods_cluster_remove		=	"Sword Attacks deal increased Damage with Hits and Ailments"		;## the usual # as a placeholder for the %-value doesn't work here
 		mods_cluster_remove		=	"Mace or Sceptre Attacks deal increased Damage with Hits and Ailments"	;## these are specific cluster-enchants that have two lines because they affect multiple item-classes
@@ -467,38 +467,38 @@
 		mods_qual_enchant		=	"Quality does not increase Defences"			;## harvest enchant
 
 
-		mods_armour_flat		=	"+# to Armour"						;## PoE1 and PoE2 (whole block)
-		mods_evasion_flat		=	"+# to Evasion Rating"
-		mods_energy_flat		=	"+# to maximum Energy Shield"
-		mods_ward_flat			=	"+# to Ward"
-		mods_armour_%			=	"% increased Armour"
-		mods_evasion_%			=	"% increased Evasion Rating"
-		mods_energy_%			=	"% increased Energy Shield"
-		mods_ward_%			=	"% increased Ward"
-		mods_armour_evasion_%		=	"% increased Armour and Evasion"
-		mods_armour_energy_%		=	"% increased Armour and Energy Shield"
-		mods_evasion_energy_%		=	"% increased Evasion and Energy Shield"
-		mods_damage_flat		=	"Adds # to # damage"					;## e.g. "adds 7 to 17 XYZ damage..."
-		mods_phys_%			=	"% increased physical damage"				;## local mod on weapons
+		mods_armour_flat		=	"방어도 +#"						;## PoE1 and PoE2 (whole block)
+		mods_evasion_flat		=	"회피 +#"
+		mods_energy_flat		=	"에너지 보호막 최대치 +#"
+		mods_ward_flat			=	"수호 +#"
+		mods_armour_%			=	"방어도 #% 증가"
+		mods_evasion_%			=	"회피 #% 증가"
+		mods_energy_%			=	"에너지 보호막 #% 증가"
+		mods_ward_%			=	"수호 #% 증가"
+		mods_armour_evasion_%		=	"방어도 및 회피 #% 증가"
+		mods_armour_energy_%		=	"방어도 및 에너지 보호막 #% 증가"
+		mods_evasion_energy_%		=	"회피 및 에너지 보호막 #% 증가"
+		mods_damage_flat		=	"피해 #~# 추가"					;## e.g. "adds 7 to 17 XYZ damage..."
+		mods_phys_%			=	"물리 피해 #% 증가"				;## local mod on weapons
 
-		mods_armour_evasion_energy_%	=	"% increased Armour, Evasion and Energy Shield"		;## PoE1 only (whole block), crafting bench
-		mods_contract_alert		=	"per # Alert Level"					;## from alert-specific mods on contracts
-		mods_memory_magnitude		=	"increased Explicit Modifier magnitudes"		;## atlas memories apply an enchant that multiplies mod-values on maps (you'll have to use a memory and talk to Kirac to see this line)
+		mods_armour_evasion_energy_%	=	"방어도, 회피, 에너지 보호막 #% 증가"		;## PoE1 only (whole block), crafting bench
+		mods_contract_alert		=	"경보 레벨 #당"					;## from alert-specific mods on contracts
+		mods_memory_magnitude		=	"고정 속성 부여 규모 #% 증가"		;## atlas memories apply an enchant that multiplies mod-values on maps (you'll have to use a memory and talk to Kirac to see this line)
 
 
 ;## these are the names on Timeless Jewels, just in case the target language uses localized names		;## PoE1 only (whole block)
-		seed_brutal restraint		=	"asenath"
-		seed_brutal restraint		=	"balbala"
-		seed_brutal restraint		=	"nasima"
-		seed_elegant hubris		=	"cadiro"
-		seed_elegant hubris		=	"caspiro"
-		seed_elegant hubris		=	"victario"
-		seed_glorious vanity		=	"ahuana"
-		seed_glorious vanity		=	"doryani"
-		seed_glorious vanity		=	"xibaqua"
-		seed_lethal pride		=	"akoya"
-		seed_lethal pride		=	"kaom"
-		seed_lethal pride		=	"rakiata"
-		seed_militant faith		=	"avarius"
-		seed_militant faith		=	"dominus"
-		seed_militant faith		=	"maxarius"
+		seed_brutal restraint		=	"아세나스"
+		seed_brutal restraint		=	"발바라"
+		seed_brutal restraint		=	"나시마"
+		seed_elegant hubris		=	"카디로"
+		seed_elegant hubris		=	"카스피로"
+		seed_elegant hubris		=	"빅타리오"
+		seed_glorious vanity		=	"아후아나"
+		seed_glorious vanity		=	"도리아니"
+		seed_glorious vanity		=	"지바콰"
+		seed_lethal pride		=	"아코야"
+		seed_lethal pride		=	"카옴"
+		seed_lethal pride		=	"라키아타"
+		seed_militant faith		=	"아배리우스"
+		seed_militant faith		=	"도미누스"
+		seed_militant faith		=	"막사리우스"
