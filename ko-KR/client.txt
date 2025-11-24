@@ -486,6 +486,17 @@
 		mods_memory_magnitude		=	"고정 속성 부여 규모 #% 증가"		;## atlas memories apply an enchant that multiplies mod-values on maps (you'll have to use a memory and talk to Kirac to see this line)
 
 
+
+;## these are some quest/NPC names that are required for the guide's routing logic
+		quest_lilly			=	"릴리"
+		quest_tarkleigh			=	"타클레이"
+
+		quest_fixture			=	"운명의 흔적"					;## A3 library quest
+		quest_mercy			=	"자비로운 임무"						;## A1 medicine chest quest
+		quest_fallen			=	"사라진 은총"					;## A6 twilight strand quest
+		quest_breaking			=	"로아 알 깨트리기"					;## A1 rhoa nest quest
+
+
 ;## these are the names on Timeless Jewels, just in case the target language uses localized names		;## PoE1 only (whole block)
 		seed_brutal restraint		=	"아세나스"
 		seed_brutal restraint		=	"발바라"
