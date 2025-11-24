@@ -1,0 +1,2046 @@
+[
+  [
+    [
+      "힐록 처치",
+      "areaid1_1_town (img:town) 진입 ;; 라이온아이 초소"
+    ],
+    [
+      "타클레이: <눈_앞의_적>",
+      "areaid1_1_2 진입 ;; 해안 지대"
+    ],
+    [
+      "(img:2) / (img:1) 이동: (img:waypoint) 확보 _|| areaid1_1_3 진입 ;; 갯벌",
+      "(hint)__ 만약 오른쪽 (img:arena) (color:ffffff)벽이 길게 (img:3) 방향이면,",
+      "(hint)__ 멀리 (img:4) 방향으로 이동"
+    ],
+    [
+      "물길 따라 이동: (img:quest) (quest:형상_3개) 찾기",
+      "(img:quest) areaid1_1_4_1 진입 ;; 물에 잠긴 길"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_1_2 ;; 해안 지대"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "areaid1_1_2a 진입 ;; 물결 섬"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "우박갈퀴 처치: (quest:약품_상자) 획득 (lvl:4)",
+        "(hint)__ (img:6) / (img:5) 벽 따라 이동.",
+        "(hint)__ 만약 언덕이 있다면, 대신 (img:2) / (img:3) 벽 따라 이동",
+        "(color:cc99ff)재접속: areaid1_1_town ;; 라이온아이 초소"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "타클레이: <알_깨기1>, <알_깨기2>",
+        "네사: <자비로운_미션>",
+        "(img:waypoint) 이동: areaid1_1_4_1 ;; 물에 잠긴 길"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "다리 혹은 (img:arena) 물에_잠긴_심연 찾기, (img:portal) 설치",
+        "다리 건너기 || areaid1_1_5 진입 ;; 바위 턱"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(color:ff00ff)(img:hideout)에서 젬_구매 || (img:waypoint) 이동: (color:fec076)물에_잠긴_길 || 릴리: <자비로운_미션>, <알_깨기1>, <알_깨기2> ;; PoB 연동 시에만 표시됨",
+        "다리 혹은 (img:arena) 물에_잠긴_심연 찾기, (img:portal) 설치",
+        "다리 건너기 || areaid1_1_5 진입 ;; 바위 턱"
+      ]
+    },
+    [
+      "벽 따라 이동: areaid1_1_6 ;; 고개",
+      "(hint)__ 안전한 경로: 절벽 따라 이동"
+    ],
+    [
+      "모서리 따라 이동: areaid1_1_7_1 ;; 수용소 하층"
+    ],
+    [
+      "(img:waypoint) 이동: areaid1_1_town (img:town) ;; 라이온아이 초소",
+      "(img:portal) 진입: areaid1_1_4_1 ;; 물에 잠긴 길"
+    ],
+    [
+      "areaid1_1_4_0 찾아서 진입 ;; 물에 잠긴 심연",
+      "(hint)__ 다리 전 (img:6) 또는 (img:1), 드물게 (img:3)"
+    ],
+    [
+      "심연의_주인(에센스) 찾아서 처치",
+      "(hint)__ (img:arena) 입구 & 보스: 서로 반대 방향",
+      "(color:cc99ff)재접속: areaid1_1_town ;; 라이온아이 초소"
+    ],
+    [
+      "타클레이: <기술서>",
+      "네사: <갇힌_덩치1>",
+      "(img:waypoint) 이동: areaid1_1_7_1 ;; 수용소 하층"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료",
+        "(hint)__ 주로 지역 내 (img:1) 방향",
+        "areaid1_1_7_2 진입 ;; 수용소 상층"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid1_1_7_2 진입 ;; 수용소 상층"
+      ]
+    },
+    [
+      "optional: 화학자의 금고 찾기",
+      "(hint)__ 수은 플라스크 드랍 가능",
+      "브루투스 처치 (lvl:8-10)",
+      "(color:cc99ff)재접속: areaid1_1_town ;; 라이온아이 초소"
+    ],
+    [
+      "타클레이: <갇힌_덩치2>",
+      "optional: 여유 수은 플라스크? (color:cc99ff)상점 판매:",
+      "(hint)__ 수은_플라스크 + 확장의_오브 + (이동속도) 장화",
+      "(img:waypoint) 이동: areaid1_1_8 ;; 죄수의 문"
+    ],
+    [
+      "길 근처 언덕이 통로로 이어짐",
+      "벽 따라 이동: areaid1_1_9 ;; 배들의 묘지"
+    ],
+    [
+      "절벽 따라 이동, (img:arena) (color:99ccff)암굴 & (img:arena) 동굴 찾기 :",
+      "(hint)_ - 만약 (color:99ccff)암굴 먼저 발견: (img:waypoint) (img:in-out2) (color:ffffff)찍기 || (color:cc99ff)동굴 진입",
+      "(hint)_ - 만약 (color:cc99ff)동굴 먼저 발견: (img:portal) 설치 || (color:99ccff)암굴 진입 || (img:waypoint) 타고 (img:town) 이동",
+      "( (img:portal) 진입 ,) areaid1_1_9a 진입 ;; 배들의 묘지 동굴"
+    ],
+    [
+      "(img:quest) (quest:노예_소녀) 찾기: (quest:올플레임) 획득",
+      "(hint)_ - (img:arena) 입구 & (quest:소녀) : 서로 반대 방향",
+      "(hint)_ - 만약 (img:0)에서 시작하면, 멀리 (img:5) 방향 먼저",
+      "areaid1_1_9 진입 ;; 배들의 묘지"
+    ],
+    [
+      "페어그레이브즈 처치",
+      "(color:cc99ff)재접속: areaid1_1_town ;; 라이온아이 초소"
+    ],
+    [
+      "베스텔: <기술서>",
+      "네사: <사이렌의_노래>",
+      "(img:waypoint) 이동: areaid1_1_11_1 ;; 진노의 암굴"
+    ],
+    [
+      "물길 따라 이동: areaid1_1_11_2 ;; 분노의 암굴"
+    ],
+    [
+      "물길 따라 (img:arena) 둥지 이동 (lvl:11-13)",
+      "머베일 처치, areaid1_2_1 진입 ;; 남쪽 숲"
+    ]
+  ],
+  [
+    [
+      "절벽 따라 이동: areaid1_2_town ;; 숲 야영지"
+    ],
+    [
+      "(img:1) 방향 이동: areaid1_2_2 ;; 버려진 경작지"
+    ],
+    [
+      "optional: (img:quest) (color:8787fe)플라스크 / <허리띠> : (img:arena) areaid1_2_2a 찾기, (img:portal) 설치 ;; 굴",
+      "길 따라 이동: areaid1_2_3 ;; 갈림길"
+    ],
+    [
+      "길 따라 이동, (img:waypoint) 확보",
+      "optional: (img:quest) (color:8787fe)플라스크 / <허리띠> : (color:fec076)마을 (img:waypoint) 이동, (img:portal) 진입",
+      "(hint)_ - areaid1_2_2a 진입, 거대한_백색_야수 처치 ;; 굴",
+      "(hint)_ - (color:cc99ff)재접속 || (img:quest) 이이나 || (img:waypoint) 이동: areaid1_2_3 ;; 갈림길",
+      "(img:7) 방향 이동: areaid1_2_6_1 ;; 죄악의 방 1층"
+    ],
+    [
+      "areaid1_2_6_2 진입 ;; 죄악의 방 2층",
+      "(hint)_ - 중앙 방으로 이동",
+      "(hint)_ - (img:waypoint) 방향이 출구를 가리킴"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료",
+        "피델리타스 처치 || (img:quest) (quest:사악한_젬) 획득 (lvl:14-15)",
+        "(hint)_ - (color:cc99ff)긴_복도가 보스방으로 이어짐",
+        "(hint)_ - (img:arena) 입구 & (color:cc99ff)복도: 서로 반대 방향",
+        "(color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "피델리타스 처치 || (img:quest) (quest:사악한_젬) 획득 (lvl:14-15)",
+        "(hint)_ - (color:cc99ff)긴_복도가 보스방으로 이어짐",
+        "(hint)_ - (img:arena) 입구 & (color:cc99ff)복도: 서로 반대 방향",
+        "(color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+      ]
+    },
+    [
+      "그루스트: <검은_승병>",
+      "(img:waypoint) 이동: areaid1_2_3 ;; 갈림길"
+    ],
+    [
+      "(img:3) 방향 이동: areaid1_2_15 ;; 몰락한 성소 유적"
+    ],
+    [
+      "길 따라 이동: areaid1_2_5_1 ;; 지하 묘지 1층"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료 || areaid1_2_5_2 진입 ;; 지하 묘지 2층",
+        "(hint)__ (img:arena) 입구 & (img:arena) 출구: 서로 반대 방향"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid1_2_5_2 진입 ;; 지하 묘지 2층",
+        "(hint)__ (img:arena) 입구 & (img:arena) 출구: 서로 반대 방향"
+      ]
+    },
+    [
+      "(img:quest) (quest:제단) 찾기, (quest:황금_손) 획득",
+      "(hint)__ (img:arena) 입구 & (quest:제단): 서로 반대 방향",
+      "(color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+    ],
+    [
+      "이이나: <기술서>",
+      "(img:5) 방향 이동: areaid1_2_7 ;; 강변길"
+    ],
+    [
+      "길 따라 이동, (img:waypoint) 확보",
+      "길 따라 이동: areaid1_2_9 ;; 서쪽 숲"
+    ],
+    [
+      "길 따라 이동, (img:waypoint) 확보",
+      "areaid1_2_10 진입 ;; 거미의 방",
+      "(hint)__ (img:waypoint)가 없는 쪽 탐색"
+    ],
+    [
+      "직조자 처치: (quest:대못) 획득 (lvl:16)",
+      "(hint)__ (img:6) 방향 이동.",
+      "(hint)__ 만약 막혔으면, (img:2) / (img:1) 방향",
+      "(color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+    ],
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "실크: <예리하고_잔혹한>",
+        "(img:waypoint) 이동: areaid1_2_3 ;; 갈림길"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:1) 방향 이동: areaid1_2_4 ;; 무너진 다리"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "optional: 장신구 상자 + 탈주 유배자 3명",
+        "(hint)__ 길 따라 (img:waypoint)까지 이동, 유적지 탐색",
+        "길 따라 이동, 크레이틴 처치: (quest:목걸이) 획득",
+        "(color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "실크: <예리하고_잔혹한>",
+        "(img:waypoint) 이동: areaid1_2_7 ;; 강변길"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_2_7 ;; 강변길"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "두 기둥 사이 샛길 따라 이동",
+        "areaid1_2_12 진입 ;; 습지대"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "오크 처치: (quest:목걸이) 획득",
+        "(img:waypoint) 찾기: areaid1_2_9 ;; 서쪽 숲",
+        "(hint)__ 보통 (img:1) 또는 (img:7), 드물게 (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_2_9 ;; 서쪽 숲"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:4) 방향 이동: 길 위 횃불 찾기",
+        "샛길 따라 이동: 알리라 처치 (quest:목걸이) 획득",
+        "큰길 따라 이동: 아르테리 처치 (quest:마석_상징) 획득",
+        "(img:quest) (quest:봉인) 클릭 || (color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:4) 방향 이동: 길 위 횃불 찾기",
+        "샛길 따라 이동: (color:ff8111)알리라 돕기 (quest:정점) 획득",
+        "큰길 따라 이동: 아르테리 처치 (quest:마석_상징) 획득",
+        "(img:quest) (quest:봉인) 클릭 || (color:cc99ff)재접속: areaid1_2_town ;; 숲 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none"
+        ]
+      ],
+      "lines": [
+        "에라미어: (quest:정점)",
+        "(img:waypoint) 이동: areaid1_1_town (img:town) ;; 라이온아이 초소"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_1_town (img:town) ;; 라이온아이 초소"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "베스텔: <기술서>",
+        "(img:waypoint) 이동: areaid1_2_3 ;; 갈림길"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:1) 방향 이동: areaid1_2_4 ;; 무너진 다리"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "optional: 장신구 상자 + 탈주 유배자 3명",
+        "(hint)__ 길 따라 (img:waypoint)까지 이동, 유적지 탐색",
+        "길 따라 이동, (color:ff8111)크레이틴 돕기 (quest:정점) 획득",
+        "(color:cc99ff)재접속: areaid1_1_town ;; 라이온아이 초소"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "베스텔: <전진하는_길>",
+        "(img:waypoint) 이동: areaid1_2_7 ;; 강변길"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "두 기둥 사이 샛길 따라 이동",
+        "areaid1_2_12 진입 ;; 습지대"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(color:ff8111)오크 찾아서 돕기 (quest:정점) 획득",
+        "(img:quest) (quest:뿌리) 제거, areaid1_2_11 진입 ;; 바알 유적",
+        "(hint)__ 보통 (img:1) 또는 (img:7), 드물게 (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "베스텔: <기술서>",
+        "(img:waypoint) 이동: areaid1_2_12 ;; 습지대"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_2_12 ;; 습지대"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:quest) (quest:뿌리) 제거, areaid1_2_11 진입 ;; 바알 유적"
+      ]
+    },
+    [
+      "areaid1_2_8 찾아서 진입 ;; 북쪽 숲",
+      "(hint)_ - 길은 주로 S자 혹은 L자 형태",
+      "(hint)_ - 드물게: 바깥쪽으로 도는 나선형 맵"
+    ],
+    [
+      "(img:waypoint) 지나서 (img:7) 방향 이동 || areaid1_2_14_2 진입 ;; 동굴",
+      "(hint)_ - 만약 (img:waypoint) 이후 (img:5) 방향이면, 멀리 (img:7) 방향으로",
+      "(hint)_ - 아니면, (img:2) 벽 따라 이동"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) 도달",
+        "(img:craft) 획득 || areaid1_2_14_3 진입 ;; 고대 피라미드",
+        "(hint)_ - 둘 다 구석에서 발견 가능",
+        "(hint)_ - (img:craft): 스위치 있는 비밀 문"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) 도달",
+        "areaid1_2_14_3 진입 ;; 고대 피라미드",
+        "(hint)__ 구석 탐색"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:arena) 정점 찾기, 바알 신령 처치 (lvl:20-22)",
+        "(hint)__ 1층 (img:arena) (color:ffffff)랜덤, 이후 반대 방향 구석",
+        "(img:craft) 획득 || (color:cc99ff)재접속 || (img:waypoint) 이동: areaid1_3_1 ;; 사안 시내"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 정점 찾기, 바알 신령 처치 (lvl:20-22)",
+        "(hint)__ 1층 (img:arena) (color:ffffff)랜덤, 이후 반대 방향 구석",
+        "(color:cc99ff)재접속 || (img:waypoint) 이동: areaid1_3_1 ;; 사안 시내"
+      ]
+    }
+  ],
+  [
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:3) 방향 이동: (img:craft) 획득 || (img:7) 방향 이동, (img:quest) 클라리사 대화",
+        "(img:5) 방향 이동: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:7) 방향 이동, (img:quest) 클라리사 대화",
+        "(img:5) 방향 이동: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    [
+      "areaid1_3_2 진입 ;; 빈민가"
+    ],
+    [
+      "areaid1_3_3_1 찾아서 진입 ;; 화장터",
+      "(hint)_ - (img:arena) 입구 & (img:arena) 출구: 서로 반대 방향",
+      "(hint)_ - 가끔, (color:fec076)화장터_입구로 가는 길이",
+      "(hint)__ (color:fec076)입구 자체가 아니라 (color:aqua)구석에 있음"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료 || 파이어티 처치 || (img:quest) (quest:팔찌) 획득",
+        "(hint)__ (img:lab) & (color:ff8111)파이어티: 주로 인접한 모서리에 위치",
+        "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "파이어티 찾아서 처치 || (img:quest) (quest:팔찌) 획득",
+        "(hint)__ (img:lab) & (color:ff8111)파이어티: 주로 인접한 모서리에 위치",
+        "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    [
+      "마라모아: <사랑의_행방>",
+      "클라리사: (quest:하수도_열쇠)",
+      "areaid1_3_2 진입 ;; 빈민가"
+    ],
+    [
+      "(img:quest) (quest:쇠창살) 열기 || areaid1_3_10_1 진입 ;; 하수도"
+    ],
+    [
+      "(img:7) 방향: (img:quest) (quest:흉상) || (img:1) 방향: (img:waypoint)",
+      "(img:quest) (quest:흉상) 2개 찾기 || (img:0) 방향 이동: areaid1_3_5 ;; 장터",
+      "(hint)__ (quest:2번째_흉상)이 큰 방에 있었나? (quest:3번째)는 (img:7) 방향.",
+      "(hint)__ 아니면 (img:2) 방향"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:0) 모서리 따라 이동, (img:waypoint) 확보",
+        "areaid1_3_7 진입 ;; 전장",
+        "(hint)__ 구석 탐색"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:0) 모서리 따라 이동, (img:waypoint) 확보",
+        "(img:0) 방향 이동: areaid1_3_6 ;; 지하 묘지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료 || (img:craft) 획득",
+        "(hint)__ (img:arena) 입구 & (img:lab): 인접한 모서리",
+        "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "하간: <기술서>",
+        "(hint)__ 23레벨 이상이면: 4링크 아이템 확인",
+        "(img:waypoint) 이동: areaid1_3_5 ;; 장터"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "areaid1_3_7 찾아서 진입 ;; 전장",
+        "(hint)__ 남은 구석 탐색"
+      ]
+    },
+    [
+      "(color:cc99ff)23레벨_미만이면_레벨업_필요",
+      "(img:7) / (img:6) 방향: (img:waypoint) _|| (img:5) 방향: (img:quest) (quest:리본_타래)",
+      "(img:7) / (img:0) 방향 이동: areaid1_3_9 (lvl:24) ;; 항구"
+    ],
+    [
+      "모서리 따라 이동: (img:quest) (quest:마석_황산염) 획득",
+      "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "하간: <기술서>",
+        "(img:waypoint) 이동: areaid1_3_7 ;; 전장"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_3_7 ;; 전장"
+      ]
+    },
+    [
+      "(img:1) / (img:0) 방향 이동: areaid1_3_8_1 ;; 솔라리스 사원 1층"
+    ],
+    [
+      "areaid1_3_8_2 진입 ;; 솔라리스 사원 2층"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) 디알라 찾기: <목걸이>, (quest:지옥불_활석)",
+        "(img:arena) 실험실에서 (img:craft) 획득 || (img:waypoint) 이동: areaid1_3_10_1 ;; 하수도"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) 디알라 찾기: <목걸이>, (quest:지옥불_활석)",
+        "(img:waypoint) 이동: areaid1_3_10_1 ;; 하수도"
+      ]
+    },
+    [
+      "(img:quest) (quest:불멸의_방벽) 태우기",
+      "areaid1_3_13 진입 ;; 칠흑의 군단 주둔지"
+    ],
+    [
+      "(img:waypoint) 확보",
+      "(img:7) 방향 이동: 그라비시우스_장군 처치",
+      "(img:7) 방향 이동: areaid1_3_14_1 ;; 루나리스 사원 1층"
+    ],
+    [
+      "areaid1_3_14_2 진입 ;; 루나리스 사원 2층",
+      "(hint)_ - 초반 (color:cc99ff)복도가 (img:7) 혹은 (img:1) 방향",
+      "(hint)_ - 카펫과 그 방향을 따라갈 것"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "파이어티 찾아서 처치: (quest:열쇠) 획득 (lvl:27)",
+        "(hint)_ - 경로: (color:cc99ff)계단_3번_올라감, 이후 수레 1개.",
+        "(hint)_ - (color:cc99ff)거대_관문_2개 (L자 혹은 일자)가 (img:arena) 입구",
+        "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "파이어티 찾아서 처치: (quest:열쇠) 획득 (lvl:27)",
+        "(hint)_ - 경로: (color:cc99ff)계단_3번_올라감, 이후 수레 1개.",
+        "(hint)_ - (color:cc99ff)거대_관문_2개 (L자 혹은 일자)가 (img:arena) 입구",
+        "(img:craft) 획득 || (color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "마라모아: <오른팔_잘라내기>",
+        "그리거: <기술서>",
+        "(img:waypoint) 이동: areaid1_3_13 ;; 칠흑의 군단 주둔지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "마라모아: <오른팔_잘라내기>",
+        "그리거: <기술서>",
+        "(color:ff00ff)(img:hideout)에서 젬_구매 (도서관 젬) || 릴리: <운명의_흔적> ;; PoB 연동 시에만 표시됨",
+        "(img:waypoint) 이동: areaid1_3_13 ;; 칠흑의 군단 주둔지"
+      ]
+    },
+    [
+      "(img:1) 방향 이동: areaid1_3_15 ;; 황실 정원"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "길 따라 이동, (img:waypoint) 확보",
+        "멀리 (img:0) 방향 이동: (img:lab) 전직 시험",
+        "(hint)__ 멀리 (img:1) 방향으로 돌아가야 할 수도 있음",
+        "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid1_3_15 ;; 황실 정원"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:7) 방향 이동: areaid1_3_17_1 ;; 도서관",
+        "퀘스트 체크: <운명의_흔적> ;; (히든_라우팅_체크용)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) 확보 || 헐거운 촛대 찾기",
+        "areaid1_3_17_2 진입 ;; 문서 보관소",
+        "퀘스트 체크: <운명의_흔적> ;; (히든_라우팅_체크용)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) (quest:황금_책자) 4개 찾기",
+        "(hint)_ - 시계 방향으로 지역 탐색",
+        "(hint)_ - (img:craft): 좁은 복도의 촛대",
+        "(color:cc99ff)재접속: areaid1_3_town ;; 사안 야영지",
+        "퀘스트 체크: <운명의_흔적> ;; (히든_라우팅_체크용)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "커런시 챙기기",
+        "(img:waypoint) 이동: areaid1_3_17_1 ;; 도서관",
+        "퀘스트 체크: <운명의_흔적> ;; (히든_라우팅_체크용)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "시오사: <운명의_흔적>",
+        "(img:waypoint) 이동: areaid1_3_15 ;; 황실 정원",
+        "퀘스트 체크: <운명의_흔적> ;; (히든_라우팅_체크용)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "빠른 진행: (img:lab) 1차_전직",
+        "(hint)_ - 빌드에 따라 다름, 나중에 다시 알림",
+        "(hint)_ - (color:fec076)마을 (img:waypoint) 이동, areaidlabyrinth_airlock 진입 ;; 지망자의 광장",
+        "수레 따라 이동: areaid1_3_18_1 ;; 신의 셉터"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "길 따라 이동, (img:waypoint) 활성화",
+        "빠른 진행: (img:lab) 1차_전직",
+        "(hint)__ 빌드에 따라 다름, 나중에 다시 알림",
+        "수레 따라 이동: areaid1_3_18_1 ;; 신의 셉터"
+      ]
+    },
+    [
+      "areaid1_3_18_2 진입 ;; 신의 셉터 상층",
+      "(hint)_ - 주요 구역은 원형",
+      "(hint)_ - (img:arena) 계단은 90\u00b0 마다 생성 가능"
+    ],
+    [
+      "(img:arena) 탑_지붕 진입 (lvl:28)",
+      "(hint)__ 같은 레이아웃, 사이온 감옥 지나서 (img:1) 방향",
+      "도미누스 처치, areaid1_4_1 진입 ;; 수로"
+    ]
+  ],
+  [
+    [
+      "areaid1_4_town (img:town) 진입 ;; 하이게이트"
+    ],
+    [
+      "(img:5) 방향 이동: areaid1_4_2 ;; 말라붙은 호수"
+    ],
+    [
+      "볼 처치: (quest:군기) 획득 (lvl:30)",
+      "(hint)__ (img:help) 아이콘 찾기",
+      "(color:cc99ff)재접속: areaid1_4_town ;; 하이게이트"
+    ],
+    [
+      "areaid1_4_3_1 진입 ;; 광산 1층"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) 획득 || areaid1_4_3_2 진입 ;; 광산 2층",
+        "(hint)__ 길은 준-선형적, 주로 (img:7) 방향"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid1_4_3_2 진입 ;; 광산 2층",
+        "(hint)__ 길은 준-선형적, 주로 (img:7) 방향"
+      ]
+    },
+    [
+      "(img:quest) (quest:데쉬렛) 풀어주기 || areaid1_4_3_3 진입 ;; 수정 광맥",
+      "(hint)_ - 길찾기: 긴 직선 + 90\u00b0 회전",
+      "(hint)_ - 주의: (img:quest) (quest:데쉬렛)은 막다른 곳에 있을 수도 있음"
+    ],
+    [
+      "(img:waypoint) 확보: areaid1_4_town (img:town) ;; 하이게이트"
+    ],
+    [
+      "타수니: <기술서>",
+      "오윤: <봉인_해제>",
+      "일반적인 선택: (img:lab) 1차_전직",
+      "(img:waypoint) 이동: areaid1_4_3_3 ;; 수정 광맥"
+    ],
+    [
+      "areaid1_4_5_1 진입 ;; 다레소의 꿈"
+    ],
+    [
+      "areaid1_4_5_2 찾아서 진입 ;; 대 투기장",
+      "(hint)_ - (img:arena) 입구 & (img:arena) 출구: 서로 반대 방향",
+      "(hint)_ - (img:1) 방향 그리고/혹은 가능한 직진"
+    ],
+    [
+      "다레소 처치: (quest:눈) 획득",
+      "(hint)__ 가능하면 (img:7) 방향으로 이동",
+      "(img:portal) 이동: areaid1_4_town"
+    ],
+    [
+      "(img:waypoint) 이동: areaid1_4_3_3 ;; 수정 광맥",
+      "areaid1_4_4_1 진입 ;; 카옴의 꿈"
+    ],
+    [
+      "areaid1_4_4_3 진입 ;; 카옴의 요새",
+      "(hint)__ (img:1) 방향 이동, 이후 다리/계단 따라 이동"
+    ],
+    [
+      "카옴 처치: (quest:눈) 획득 || (img:portal) 이동: areaid1_4_town ;; 하이게이트",
+      "(hint)__ 만약 우측으로 굽은 길이면 (img:7) 방향. 아니면 (img:1)"
+    ],
+    [
+      "(img:waypoint) 이동: areaid1_4_3_3 ;; 수정 광맥",
+      "(img:quest) 디알라 부인 대화",
+      "areaid1_4_6_1 진입 ;; 짐승의 소굴 1층"
+    ],
+    [
+      "areaid1_4_6_2 진입 ;; 짐승의 소굴 2층",
+      "(hint)__ 길 따라 이동. 가능하면 (img:6) 방향"
+    ],
+    [
+      "파이어티 처치 || areaid1_4_6_3 진입 ;; 수확소",
+      "(hint)_ - 상대적 위치: 내 위치 (img:2), (img:arena) (color:ffffff)목표는 (img:6)",
+      "(hint)_ - 가능한 길게 직진"
+    ],
+    [
+      "도이드리, 말리가로, 샤브론 처치",
+      "(img:quest) 파이어티 대화 || 말라카이 처치 (lvl:34)",
+      "(img:portal) 이동: areaid1_4_town ;; 하이게이트"
+    ],
+    [
+      "디알라: <영원한_악몽>",
+      "areaid1_4_7 진입 ;; 오르막 길"
+    ],
+    [
+      "(img:quest) (quest:레버) 당기기, areaid1_5_1 진입 ;; 노예 감호소",
+      "(hint)__ (img:0) 방향, (img:7) 방향 수레바퀴 자국 따라가기, (img:0) 방향"
+    ]
+  ],
+  [
+    [
+      "(img:5) 모서리 따라 이동, 감독관 처치",
+      "(hint)_ - 교수대 있는 복도 찾기",
+      "(hint)_ - 시계 방향으로 돌아서 (img:arena) 출구 찾기",
+      "areaid1_5_town (img:town) 진입 ;; 감시자의 탑"
+    ],
+    [
+      "라니: <반지>",
+      "areaid1_5_2 진입 ;; 관리 구역"
+    ],
+    [
+      "(img:7) 방향 이동, (img:quest) (quest:독기_측정기) 찾기",
+      "(img:1) 방향 이동, 카스티쿠스 처치: (quest:눈) 획득",
+      "(img:0) 방향 이동, areaid1_5_3 진입 ;; 오리아스 광장"
+    ],
+    [
+      "(img:1) 방향 이동: (img:quest) areaid1_5_4 ;; 템플러의 법정"
+    ],
+    [
+      "areaid1_5_5 진입 (lvl:37) ;; 결백의 방",
+      "(hint)_ - (img:arena) 입구 & (img:arena) 출구: 인접한 모서리",
+      "(hint)_ - (img:1) 방향으로 중앙 홀 이동, 이후 (img:5) 방향"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:0) 모서리 따라 이동, 아바리우스 처치",
+        "(hint)_ - (img:arena) 찾는 법: 모서리가 (img:4) 방향일 때 (img:3)으로 이동",
+        "(hint)_ - (img:craft): (img:4) 모서리 쪽 큰 복도",
+        "(hint)_ - 고효율 경험치 구역 (레벨 40-42)",
+        "(img:quest) 배넌 대화 || areaid1_5_4b 진입 ;; 타오르는 법정"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:0) 모서리 따라 이동, 아바리우스 처치",
+        "(hint)__ (img:arena) 찾는 법: 모서리가 (img:4) 방향일 때 (img:3)으로 이동",
+        "(hint)__ 고효율 경험치 구역 (레벨 40-42)",
+        "areaid1_5_4b 진입 ;; 타오르는 법정"
+      ]
+    },
+    [
+      "areaid1_5_3b 진입 ;; 멸망한 광장",
+      "(hint)_ - (img:arena) 입구 & (img:arena) 출구: 인접한 모서리",
+      "(hint)_ - (img:1) 방향으로 중앙 홀 이동, 이후 (img:5) 방향"
+    ],
+    [
+      "(img:5) 방향, 이후 (img:0) 방향: (img:waypoint) 확보",
+      "areaid1_5_6 진입 ;; 납골당"
+    ],
+    [
+      "(img:quest) (quest:순결의_징표) 찾기",
+      "(hint)_ - (img:arena) 입구에서 (img:4) 모서리 따라 이동",
+      "(hint)_ - 만약 맵 끝이 (img:2)라면, 다른 모서리 따라 이동",
+      "(color:cc99ff)레버 사용, areaid1_5_3b 진입 ;; 멸망한 광장"
+    ],
+    [
+      "(img:5) 방향 분수대로 이동, (img:portal) 설치",
+      "(img:4) 방향 이동: areaid1_5_7 ;; 성유물 보관실"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) (quest:키타바의_고난) 3개 찾기 (구석)",
+        "(hint)__ (img:craft): (img:quest) (quest:고난) 중 하나 근처",
+        "(img:waypoint) 이동: areaid1_5_town (img:town) ;; 감시자의 탑"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) (quest:키타바의_고난) 3개 찾기 (구석)",
+        "(img:waypoint) 이동: areaid1_5_town (img:town) ;; 감시자의 탑"
+      ]
+    },
+    [
+      "라니: (color:8787fe)유틸_플라스크 || <주얼> || <기술서>",
+      "빌렌타: <기술서>",
+      "(img:portal) 진입: areaid1_5_3b ;; 멸망한 광장"
+    ],
+    [
+      "(img:7) 방향 이동: areaid1_5_8 ;; 대성당 옥상"
+    ],
+    [
+      "(img:7) 방향 이동, 키타바 처치",
+      "(img:quest) 릴리: areaid2_6_town ;; 라이온아이 초소"
+    ]
+  ],
+  [
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) 릴리 대화",
+        "areaid2_6_2 진입 ;; 해안 지대"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(color:ff00ff)(img:hideout)에서 젬_구매 || 릴리: <우아함의_몰락> ;; PoB 연동 시에만 표시됨",
+        "(img:waypoint) 이동: areaid2_6_town (img:town) || 릴리: <우아함의_몰락> ;; 라이온아이 초소",
+        "areaid2_6_2 진입 ;; 해안 지대"
+      ]
+    },
+    [
+      "(img:2) / (img:1) 방향: (img:waypoint) 확보 _|| areaid2_6_4 진입 ;; 갯벌",
+      "(hint)__ 만약 오른쪽 (img:arena) (color:ffffff)벽이 길게 (img:3) 방향이면, 멀리 (img:4) 방향으로"
+    ],
+    [
+      "(img:2) 방향 이동, 여왕 처치: (quest:눈) 획득",
+      "(hint)__ 만약 (color:cc99ff)지역_끝에 닿으면, 모서리 따라 이동",
+      "(img:7) 방향 이동, areaid2_6_5 진입 ;; 카루이 요새",
+      "(hint)__ 만약 (color:cc99ff)지역_끝이 해변이라면, 대신 (img:5) 방향으로"
+    ],
+    [
+      "(img:1) 방향 (img:arena) (color:ffffff)투기장 이동 _|| 투코하마 처치",
+      "(img:1) 방향 이동: areaid2_6_6 진입 ;; 산등성이"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) 확보",
+        "optional: (img:quest) <허리띠/목걸이>: (img:waypoint) 이동 areaid2_6_2 ;; 해안 지대",
+        "(hint)__ (img:arena) areaid2_6_3 에서 (img:quest) (quest:원고) 찾기 ;; 물결 섬",
+        "(img:portal) 이동: areaid2_6_town ;; 라이온아이 초소"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "areaid2_6_1 진입 ;; 황혼의 해안"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "적 전부 처치",
+        "(color:cc99ff)재접속: areaid2_6_town ;; 라이온아이 초소"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "릴리: <우아함의_몰락>",
+        "optional: 베스텔: <허리띠/목걸이> 보상 (quest:원고)",
+        "타클레이: <기술서> ;; 투코하마",
+        "(img:waypoint) 이동: areaid2_6_6 ;; 산등성이"
+      ]
+    },
+    [
+      "(img:arena) 투기장 대비 (img:waypoint) 위치 확인",
+      "(hint)_ - (img:waypoint)가 위쪽: 멀리 (img:1) 방향, 이후 (img:7)",
+      "(hint)_ - (img:waypoint)가 왼쪽: 멀리 (img:5) 방향, 이후 (img:7)",
+      "areaid2_6_7_1 진입 ;; 수용소 하층"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 || areaid2_6_7_2 진입 : ;; 샤브론의 탑",
+        "(hint)_ - (img:waypoint) 근처 (color:cc99ff)지도_아이콘 확인",
+        "(hint)_ - (img:lab) 시험이 (img:1)이면, (img:arena) 출구는 (img:2)",
+        "(hint)_ - (img:arena) 출구가 (img:3) / (img:4)라면, (img:lab)은 더 멀리 (img:4)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid2_6_7_2 진입 : ;; 샤브론의 탑",
+        "(hint)_ - (img:waypoint) 근처 (color:cc99ff)지도_아이콘 확인",
+        "(hint)_ - (img:lab) 시험이 (img:1)이면, (img:arena) 출구는 (img:2)",
+        "(hint)_ - 그 외: (img:arena) 출구가 (img:waypoint)의 (img:3) / (img:4)인지 확인"
+      ]
+    },
+    [
+      "샤브론_&_브루투스 처치 || areaid2_6_8 진입 ;; 죄수의 문",
+      "(hint)__ (img:arena) 계단은 주로 인접한 모서리에 위치",
+      "(hint)__ (직선 경로 혹은 빙 도는 경로)"
+    ],
+    [
+      "길 따라 이동: areaid2_6_9 ;; 서쪽 숲"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "길 따라 이동: areaid2_6_10 ;; 강변길",
+        "(hint)__ (img:craft): 길 위 횃불로 표시된",
+        "(hint)__ 샛길 따라 이동"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "길 따라 이동: areaid2_6_10 ;; 강변길"
+      ]
+    },
+    [
+      "길 따라 이동, (img:waypoint) 확보",
+      "(img:7) 방향 이동, areaid2_6_11 진입 ;; 습지대",
+      "(hint)__ 두 기둥 사이 샛길 따라 이동"
+    ],
+    [
+      "(img:6) 모서리 따라 이동, 리슬라사 처치",
+      "(hint)__ 드물게, (img:arena) 둥지가 (img:1) 방향일 수 있음",
+      "(img:portal) 이동: areaid2_6_town ;; 라이온아이 초소"
+    ],
+    [
+      "(img:waypoint) 이동: areaid2_6_8 ;; 죄수의 문"
+    ],
+    [
+      "샛길 찾기 || 아버라스 처치",
+      "(hint)_ - 길 옆 언덕이 통로로 이어짐",
+      "(hint)_ - 통로 벽 따라 이동, (img:arena) 아버라스 찾기",
+      "(color:cc99ff)재접속: areaid2_6_town ;; 라이온아이 초소"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "베스텔: <기술서> ;; 아버라스",
+        "타클레이: <투구> || <기술서> ;; 샤브론 || 리슬라사",
+        "(img:waypoint) 이동: areaid2_6_10 ;; 강변길"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "베스텔: <기술서> ;; 아버라스",
+        "타클레이: <기술서> || <투구> || <기술서> ;; 투코하마 || 샤브론 || 리슬라사",
+        "(img:waypoint) 이동: areaid2_6_10 ;; 강변길"
+      ]
+    },
+    [
+      "길 끝까지 이동",
+      "(img:3) 방향 이동: areaid2_6_12 ;; 남쪽 숲"
+    ],
+    [
+      "(img:2) 모서리 따라 다리 찾기",
+      "절벽 (img:3) 방향 따라 이동: areaid2_6_13 ;; 분노의 암굴"
+    ],
+    [
+      "(img:quest) (quest:검은_깃발) 획득 || areaid2_6_14 진입 ;; 염수왕의 봉화",
+      "(hint)__ 가능하면 (img:2) / (img:3) 모서리 따라 이동"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:1) 방향 이동, (img:craft) 획득, (img:quest) (quest:수레) 2개 밀기",
+        "(img:quest) (quest:봉화) 점화, (img:quest) (quest:깃발) 태우기",
+        "웨일럼: areaid2_6_15 ;; 염수왕의 암초"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:1) 방향 이동, (img:quest) (quest:연료_수레) 2개 밀기",
+        "(img:quest) (quest:봉화) 점화, (img:quest) (quest:깃발) 태우기",
+        "웨일럼: areaid2_6_15 ;; 염수왕의 암초"
+      ]
+    },
+    [
+      "(img:arena) 투기장 찾기: (img:waypoint)의 (img:5) 방향이 막혔는가?",
+      "(hint)_ - 예: 멀리 (img:3) 방향 이동. (img:2) 확인 후 (img:0)",
+      "(hint)_ - 아니오: (img:5) 방향, 길 열리면 (img:7) 방향",
+      "초아고스 처치 || (img:portal) 이동: areaid2_6_town ;; 라이온아이 초소"
+    ],
+    [
+      "판테온 선택",
+      "(img:waypoint) 이동: areaid2_7_town (img:town) ;; 다리 야영지"
+    ]
+  ],
+  [
+    [
+      "areaid2_7_1 진입 ;; 무너진 다리"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "끊어진 (img:waypoint)까지 길 따라 이동",
+        "근처 유적에서 (img:quest) (quest:로켓) 찾기",
+        "길 따라 이동: areaid2_7_2 ;; 갈림길"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "길 따라 이동: areaid2_7_2 ;; 갈림길"
+      ]
+    },
+    [
+      "길 따라 이동, (img:waypoint) 확보",
+      "(img:3) 방향 이동: areaid2_7_3 ;; 몰락한 성소 유적"
+    ],
+    [
+      "길 따라 이동: areaid2_7_4 ;; 지하 묘지"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료 || (img:craft) 획득",
+        "(img:arena) 석관 & (img:quest) (quest:지도) 찾기",
+        "(img:portal) 이동: areaid2_7_town ;; 다리 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 석관 & (img:quest) (quest:지도) 찾기",
+        "(img:portal) 이동: areaid2_7_town ;; 다리 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "웨일럼: (color:8787fe)유틸_플라스크",
+        "(img:waypoint) 이동: areaid2_7_2 ;; 갈림길"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) 이동: areaid2_7_2 ;; 갈림길"
+      ]
+    },
+    [
+      "(img:7) 방향 이동: areaid2_7_5_1 ;; 죄악의 방 1층"
+    ],
+    [
+      "중앙 방 도착, (img:waypoint) 확보",
+      "(img:quest) (quest:지도_장치)에 (quest:지도) 사용",
+      "areaid2_7_5_map 진입 ;; 말리가로의 성소"
+    ],
+    [
+      "말리가로 처치: (quest:독) 획득",
+      "(hint)__ 모서리 따라 다리 찾기",
+      "(img:portal) 이동: areaid2_7_5_1 ;; 죄악의 방 1층"
+    ],
+    [
+      "실크: (quest:흑요석_열쇠)",
+      "areaid2_7_5_2 진입 ;; 죄악의 방 2층",
+      "(hint)__ (img:waypoint) 방향이 출구를 가리킴"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료 || (img:craft) 획득",
+        "(hint)__ 가능하면 (img:3), 아니면 (img:6) 방향",
+        "(img:quest) (color:cc99ff)통로 열기: areaid2_7_6 ;; 굴",
+        "(hint)__ (img:lab) 기준 멀리 (img:5) 혹은 멀리 (img:1) 시도"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "방향 확인용 (img:lab) 찾기:",
+        "(hint)__ 가능하면 (img:3), 아니면 (img:6) 방향",
+        "(img:quest) (color:cc99ff)통로 열기: areaid2_7_6 ;; 굴",
+        "(hint)__ (img:lab) 기준 멀리 (img:5) 혹은 멀리 (img:1) 시도"
+      ]
+    },
+    [
+      "areaid2_7_7 진입 ;; 잿빛 들판"
+    ],
+    [
+      "빠른 진행: (img:lab) 2차_전직",
+      "(hint)__ 나중에 다시 알림",
+      "(img:5) 방향 이동, 그루스트 처치",
+      "areaid2_7_8 진입 ;; 북쪽 숲"
+    ],
+    [
+      "(img:5) 방향, 이후 (img:7) 모서리 따라 이동",
+      "(hint)__ (img:arena) 공포의_잡목림 발견 시 (img:portal) 설치",
+      "areaid2_7_10 진입 ;; 둑길"
+    ],
+    [
+      "가능한 한 (img:0) / (img:6) 방향 이동",
+      "(img:quest) (quest:별) 획득, areaid2_7_11 진입 ;; 바알 도시"
+    ],
+    [
+      "(img:7) 방향 이동 || (img:waypoint) 이동: areaid2_7_town (img:town) ;; 다리 야영지",
+      "(hint)_ - (color:cc99ff)절벽인가? 따라가기. 벽을 (img:1) 방향으로 우회",
+      "(hint)_ - 긴 모서리는 (img:waypoint) 표시, (img:6) 방향으로 우회"
+    ],
+    [
+      "웨일럼: <기술서> ;; 별",
+      "에라미어: <기술서> || 헬레나: <장화> ;; 그루스트 || 말리가로",
+      "(img:waypoint) / (img:portal) 이동: areaid2_7_8 ;; 북쪽 숲"
+    ],
+    [
+      "areaid2_7_9 찾아서 진입 ;; 공포의 잡목림",
+      "(hint)__ 주로 (img:waypoint)의 (img:5) 방향, 혹은 (img:6) 모서리"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) (quest:반딧불이) 7마리 & (img:craft) 찾기",
+        "(img:arena) 굴 찾기, 그루스컬 처치",
+        "(img:portal) 이동: areaid2_7_town ;; 다리 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) (quest:반딧불이) 7마리 찾기",
+        "(img:arena) 굴 찾기, 그루스컬 처치",
+        "(img:portal) 이동: areaid2_7_town ;; 다리 야영지"
+      ]
+    },
+    [
+      "에라미어: <기술서> ;; 그루스컬",
+      "일반적인 선택: (img:lab) 2차_전직",
+      "(img:waypoint) 이동: areaid2_7_11 ;; 바알 도시"
+    ],
+    [
+      "(img:quest) 이이나 대화",
+      "areaid2_7_12_1 진입 ;; 부패의 사원 1층"
+    ],
+    [
+      "areaid2_7_12_2 진입 ;; 부패의 사원 2층",
+      "(hint)_ - 1층: 대각선으로 이동",
+      "(hint)_ - 2층: (회전된) Z자 패턴"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) 획득 || 아라칼리 처치",
+        "(hint)_ - 1+2층: (회전된) Z자 패턴",
+        "(hint)_ - 3층: (img:0) 모서리 따라 이동",
+        "areaid2_8_1 진입 ;; 사안 성벽"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "아라칼리 찾아서 처치",
+        "(hint)_ - 1+2층: (회전된) Z자 패턴",
+        "(hint)_ - 3층: (img:0) 모서리 따라 이동",
+        "areaid2_8_1 진입 ;; 사안 성벽"
+      ]
+    }
+  ],
+  [
+    [
+      "(img:2) 방향, 이후 벽 따라 이동",
+      "areaid2_8_town 진입 ;; 사안 야영지"
+    ],
+    [
+      "(img:6) 방향 이동: areaid2_8_2_1 ;; 독성 도관"
+    ],
+    [
+      "areaid2_8_2_2 진입 ;; 도이드리의 정화조",
+      "(hint)_ - 시작 구역: 출구 1개인 루프",
+      "(hint)_ - 이후: 가능한 한 (img:1) 방향 이동"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "도이드리 찾아서 처치",
+        "(hint)__ 시도: 멀리 (img:5), 멀리 (img:3), 혹은 멀리 (img:1)",
+        "(img:craft) 획득 || (img:2) 방향 이동: areaid2_8_8 ;; 부두"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "도이드리 찾아서 처치",
+        "(hint)__ 시도: 멀리 (img:5), 멀리 (img:3), 혹은 멀리 (img:1)",
+        "(img:2) 방향 이동: areaid2_8_8 ;; 부두"
+      ]
+    },
+    [
+      "물길 따라 이동, (img:quest) (quest:앙크) 찾기",
+      "멀리 (img:4) 방향에서 (img:arena) 부활_장소 찾기",
+      "(hint)__ (img:quest) 클라리사 || 톨먼 처치",
+      "멀리 (img:2) 방향 이동: areaid2_8_9 ;; 곡물 문"
+    ],
+    [
+      "(color:aqua)죽은_경비병 따라 다음 (color:cc99ff)구역으로 이동",
+      "숨겨진 쇠창살 찾아서 열기: (color:red)진입하지_말_것",
+      "젬링_군단 처치 ((img:help) 아이콘 근처)",
+      "(hint)__ 여기 혹은 다음 (color:aqua)죽은_경비병 (color:cc99ff)구역",
+      "(img:arena) (color:aqua)쇠창살 진입: areaid2_8_14 ;; 거대 산책로"
+    ],
+    [
+      "(img:6) 모서리 따라 이동: (color:cc99ff)세갈래_길 도착 시, (img:portal) 설치",
+      "같은 모서리 따라 이동: areaid2_8_11 ;; 솔라리스 광장"
+    ],
+    [
+      "areaid2_8_12_1 진입 ;; 솔라리스 사원 1층",
+      "(hint)_ - 멀리 (img:0) 모서리 탐색",
+      "(hint)_ - 길을 잃으면 수로 역방향으로 이동"
+    ],
+    [
+      "(img:0) 모서리 따라 이동, (img:waypoint) 확보",
+      "(img:waypoint) 이동: areaid2_8_town (img:town) ;; 사안 야영지"
+    ],
+    [
+      "(img:portal) 진입: areaid2_8_14 ;; 거대 산책로",
+      "3번째 복도 따라 이동: areaid2_8_5 ;; 목욕탕"
+    ],
+    [
+      "(img:portal) 설치",
+      "(img:2) 방향 이동: areaid2_8_6 ;; 루나리스 광장"
+    ],
+    [
+      "(img:1) 방향 이동, (img:waypoint) 확보",
+      "(img:waypoint) 이동: areaid2_8_town (img:town) ;; 사안 야영지"
+    ],
+    [
+      "(img:portal) 진입: areaid2_8_5 ;; 목욕탕"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 완료 || areaid2_8_4 진입 ;; 고위 정원",
+        "(hint)_ - (img:6) / (img:7) / (img:0) 구역 모서리 확인",
+        "(hint)_ - 참고: 방금 나온 (img:arena) 출구는 (img:2) 모서리임"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid2_8_4 찾아서 진입 ;; 고위 정원",
+        "(hint)_ - (img:6) / (img:7) / (img:0) 구역 모서리 확인",
+        "(hint)_ - 참고: 방금 나온 (img:arena) 출구는 (img:2) 모서리임"
+      ]
+    },
+    [
+      "(img:arena) 투기장 찾기, 유굴 처치",
+      "(color:cc99ff)재접속: areaid2_8_town ;; 사안 야영지"
+    ],
+    [
+      "마라모아: <기술서> ;; 젬링 군단",
+      "하간: <반지>, <기술서> ;; 도이드리, 유굴",
+      "클라리사: <기술서> ;; 톨먼",
+      "(img:waypoint) 이동: areaid2_8_12_1 ;; 솔라리스 사원 1층"
+    ],
+    [
+      "(img:7) 방향 이동: areaid2_8_12_2 ;; 솔라리스 사원 2층"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "여명 처치: (quest:태양의_구슬) 획득",
+        "(hint)__ 만약 길이 멀리 (img:4) / (img:5) 방향이면, (img:arena) 기준",
+        "(hint)__ 왼쪽 모서리 따라가기. 아니면 오른쪽 모서리.",
+        "(img:craft) 획득 || (img:portal) 이동: areaid2_8_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "여명 처치: (quest:태양의_구슬) 획득",
+        "(hint)__ 만약 길이 멀리 (img:4) / (img:5) 방향이면, (img:arena) 기준",
+        "(hint)__ 왼쪽 모서리 따라가기. 아니면 오른쪽 모서리.",
+        "(img:portal) 이동: areaid2_8_town ;; 사안 야영지"
+      ]
+    },
+    [
+      "(img:waypoint) 이동: areaid2_8_6 ;; 루나리스 광장"
+    ],
+    [
+      "(img:7) 방향 이동: areaid2_8_7_1_ ;; 루나리스 사원 1층"
+    ],
+    [
+      "areaid2_8_7_2 진입 ;; 루나리스 사원 2층",
+      "(hint)_ - 초반 (color:cc99ff)복도가 (img:7) 혹은 (img:1) 방향",
+      "(hint)_ - 카펫과 그 방향을 따라갈 것"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "황혼 처치: (quest:달의_구슬) 획득",
+        "(hint)_ - 경로: (color:cc99ff)계단_3번_올라감, 이후 화분 1개.",
+        "(hint)_ - (color:cc99ff)거대_관문_2개 (대략 일직선)가 (img:arena) 입구",
+        "(img:craft) 획득 || (img:portal) 이동: areaid2_8_town ;; 사안 야영지"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "황혼 처치: (quest:달의_구슬) 획득",
+        "(hint)_ - 경로: (color:cc99ff)계단_3번_올라감, 이후 화분 1개.",
+        "(hint)_ - (color:cc99ff)거대_관문_2개 (대략 일직선)가 (img:arena) 입구",
+        "(img:portal) 이동: areaid2_8_town ;; 사안 야영지"
+      ]
+    },
+    [
+      "(img:waypoint) 이동: areaid2_8_6 ;; 루나리스 광장"
+    ],
+    [
+      "(img:3) 방향 이동: areaid2_8_13 ;; 항구 다리"
+    ],
+    [
+      "(img:1) 방향 이동: (img:arena) 하늘의_성소 (lvl:54+)",
+      "솔라리스_&_루나리스 처치",
+      "areaid2_9_1 진입 ;; 피의 수로"
+    ]
+  ],
+  [
+    [
+      "적정 레벨: 58-62",
+      "areaid2_9_town (img:town) 진입 ;; 하이게이트",
+      "areaid2_9_2 진입 ;; 비탈"
+    ],
+    [
+      "areaid2_9_3 찾아서 진입 ;; 바스티리 사막",
+      "(hint)__ 1구역: (img:1) 방향 || 나머지: 선형적"
+    ],
+    [
+      "(img:2) 방향, (img:waypoint) 활성화",
+      "기둥 원형 지역에서 (img:quest) (quest:칼날) 찾기",
+      "(hint)__ 보통 (img:waypoint) 근처, 혹은 (img:waypoint) 기준 멀리 (img:5) 방향",
+      "(img:0) 방향 이동: areaid2_9_5 ;; 구릉"
+    ],
+    [
+      "(img:1) 방향 이동, (img:waypoint) 활성화",
+      "areaid2_9_6 진입 ;; 끓어오르는 호수"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:1) 방향, 바실리스크 처치: (quest:산) 획득",
+        "(img:craft) 획득 || (color:cc99ff)재접속: areaid2_9_town ;; 하이게이트"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:1) 방향, 바실리스크 처치: (quest:산) 획득",
+        "(color:cc99ff)재접속: areaid2_9_town ;; 하이게이트"
+      ]
+    },
+    [
+      "페타루스와 반야: <무기/보조장비>",
+      "(img:quest) 씬 대화",
+      "페타루스와 반야: (quest:폭풍의_병)",
+      "(img:waypoint) 이동: areaid2_9_3 ;; 바스티리 사막"
+    ],
+    [
+      "(img:1) 방향 이동: areaid2_9_4 ;; 오아시스"
+    ],
+    [
+      "(img:arena) 모래 구덩이 찾기, 샤카리 처치",
+      "(hint)__ (img:2) 모서리 따라 이동하며 탐색",
+      "(color:cc99ff)재접속: areaid2_9_town ;; 하이게이트"
+    ],
+    [
+      "이라샤: <기술서>",
+      "(img:waypoint) 이동: areaid2_9_5 ;; 구릉"
+    ],
+    [
+      "optional: (img:quest) <반환_포인트>",
+      "(hint)__ 볼더백 처치: (quest:달력) 획득",
+      "(img:7) 방향 이동: areaid2_9_7 ;; 터널"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 전직 시험 & (img:craft): (img:help) 표시된 샛길",
+        "큰길 따라 이동: areaid2_9_8 ;; 채석장"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid2_9_8 진입 ;; 채석장"
+      ]
+    },
+    [
+      "(img:7) 방향, (img:waypoint) 확보 _|| (img:1) 방향에서 (img:arena) 출구 탐색",
+      "(img:arena) 바람의_성소 발견 시: 가루칸 처치 (img:quest) (quest:깃털) 획득",
+      "(hint)__ 이후 (img:6) 모서리 따라 (img:arena) 제련소 이동",
+      "못 찾았다면, areaid2_9_9 진입 ;; 제련소"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:0) 방향 출구 선택: (img:7) 이동 후 (img:1)",
+        "(hint)__ (img:craft): 쇠창살로 막힌 선로 끝",
+        "아두스 장군 처치: (img:quest) (quest:가루) 획득",
+        "(color:cc99ff)재접속: areaid2_9_town ;; 하이게이트"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:0) 방향 출구 선택: (img:7) 이동 후 (img:1)",
+        "아두스 장군 처치: (img:quest) (quest:가루) 획득",
+        "(color:cc99ff)재접속: areaid2_9_town ;; 하이게이트"
+      ]
+    },
+    [
+      "(quest:깃털) 획득함? 이라샤: <기술서>",
+      "optional: 페타루스와 반야: <반환_포인트> 보상 (quest:달력)",
+      "(img:waypoint) 이동: areaid2_9_8 ;; 채석장"
+    ],
+    [
+      "(img:quest) 씬 대화",
+      "아직 (img:arena) 바람의_성소를 못 찾았다면:",
+      "(hint)_ - (img:6) / (img:5) 방향 탐색, 가루칸 처치",
+      "(hint)_ - (color:cc99ff)재접속 || (img:quest) 이라샤 || (img:waypoint) 이동: (color:fec076)채석장",
+      "areaid2_9_10_1 진입 ;; 짐승의 소굴"
+    ],
+    [
+      "(img:4) 방향 이동, 동쪽 막혔는지 확인:",
+      "(hint)_ - 막혔음: (img:6) 방향, 이후 (img:1)",
+      "(hint)_ - 안 막힘: 가능한 한 (img:6) 방향",
+      "areaid2_9_10_2 진입 ;; 썩어가는 중심부"
+    ],
+    [
+      "2번째 길 (img:0) 방향: (img:arena) 검은_중심부",
+      "(img:quest) 씬 || (color:cc99ff)3개_부속_지역 클리어 || (img:quest) 씬",
+      "타락한 삼위일체 처치 || (img:quest) 릴리: areaid2_10_town ;; 오리아스 부두"
+    ]
+  ],
+  [
+    [
+      "areaid2_10_1 진입 ;; 대성당 옥상"
+    ],
+    [
+      "(img:0) 방향 (img:arena) 정점 이동, 역병_날개 처치",
+      "(img:3) 방향 이동: areaid2_10_2 ;; 무너진 광장"
+    ],
+    [
+      "(img:3) 방향 분수대로 이동, (img:portal) 설치",
+      "(img:2) 방향 다리로 이동, (img:0) 방향 골목 진입",
+      "(img:waypoint) 확보 || (img:3) 방향 이동: areaid2_10_3 ;; 타오르는 법정"
+    ],
+    [
+      "areaid2_10_4 진입 ;; 모독의 방",
+      "(hint)__ - (img:arena) 입구 & (img:arena) 출구: 인접한 모서리",
+      "(hint)__ - (img:1) 방향으로 중앙 홀 이동, 이후 (img:5) 방향"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:0) 모서리 따라 이동, 아바리우스 처치",
+        "(hint)_ - (img:arena) 찾는 법: 모서리가 (img:4) 방향일 때 (img:3)으로 이동",
+        "(hint)_ - (img:craft): (img:4) 모서리 쪽 큰 복도",
+        "(img:quest) (quest:순결의_지팡이) 획득 || (img:waypoint) 이동: areaid2_10_town (img:town) ;; 오리아스 부두"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:0) 모서리 따라 이동, 아바리우스 처치",
+        "(hint)_ (img:arena) 찾는 법: 모서리가 (img:4) 방향일 때 (img:3)으로 이동",
+        "(img:quest) (quest:순결의_지팡이) 획득 || (img:waypoint) 이동: areaid2_10_town (img:town) ;; 오리아스 부두"
+      ]
+    },
+    [
+      "(img:quest) 배넌 대화",
+      "(img:portal) 진입: areaid2_10_2 ;; 무너진 광장"
+    ],
+    [
+      "(img:5) 방향 이동: areaid2_10_7 ;; 관리 구역"
+    ],
+    [
+      "멀리 (img:6) 방향, 빌렌타 처치",
+      "(img:portal) 이동: areaid2_10_town ;; 오리아스 부두"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "라니: (color:8787fe)플라스크 || <방어구> || <기술서> ;; 역병날개 || 아바리우스 || 빌렌타",
+        "(img:lab) 3차_전직 완료",
+        "(img:waypoint) 이동: areaid2_10_2 ;; 무너진 광장"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "라니: (color:8787fe)플라스크 || <방어구> || <기술서>  ;; 역병날개 || 아바리우스 || 빌렌타",
+        "(img:waypoint) areaid2_10_2 ;; 무너진 광장"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "areaid2_10_9 진입 ;; 납골당"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "모서리 따라 이동, (img:lab) 전직 시험 완료",
+        "(hint)_ - (img:lab) 위치: (img:quest) (quest:비약) 기준 (img:0) 방향 (선택: <반환_포인트_2개>)",
+        "(hint)_ - (img:craft): (img:quest) (quest:비약) 근처에 있음",
+        "(color:cc99ff)재접속: areaid2_10_town ;; 오리아스 부두"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(quest:비약) 획득함? 웨일럼: <반환_포인트>",
+        "(img:lab) 3차_전직 완료",
+        "(img:waypoint) 이동: areaid2_10_2 ;; 무너진 광장"
+      ]
+    },
+    [
+      "(img:quest) 이노센스 대화",
+      "areaid2_10_5 진입 ;; 수로"
+    ],
+    [
+      "길 따라 (img:7) 방향 이동",
+      "areaid2_10_6 진입 ;; 먹이통"
+    ],
+    [
+      "(img:7) 방향 이동 _|| (img:quest) 씬 대화",
+      "(img:arena) 제단 진입, 키타바 처치",
+      "(img:quest) 씬 || areaid2_10_town 진입 ;; 오리아스 부두"
+    ],
+    [
+      "라니: <기술서>",
+      "(img:quest) 릴리: areaid2_11_endgame_town ;; 카루이의 해안"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) 활성화 || (img:quest) 키락 대화",
+        "(hint)_ - <채팅창에_\"/passives\"_입력:_스킬포인트_확인>",
+        "(hint)_ - <액트_가이드_종료>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(hint)__ <채팅창에_\"/passives\"_입력:_스킬포인트_확인>",
+        "(hint)__ <액트_가이드_종료>"
+      ]
+    }
+  ]
+]
