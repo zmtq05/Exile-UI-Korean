@@ -1,0 +1,8984 @@
+{
+  "_comments": [
+    "when translating gems, add a 'name' key to a gem's object, for example:",
+    {
+      "absolution": {
+        "attribute": 1,
+        "level": 12,
+        "name": "TRANSLATION",
+        "quests": {}
+      }
+    }
+  ],
+  "_quests": {
+    "운명의 흔적": {
+      "act": 3,
+      "npc": "시오사"
+    },
+    "로아 알 깨트리기1": {
+      "act": 1,
+      "npc": "타클레이"
+    },
+    "로아 알 깨트리기2": {
+      "act": 1,
+      "npc": "타클레이"
+    },
+    "봉인 해제": {
+      "act": 4,
+      "npc": "오윤"
+    },
+    "눈 앞의 적": {
+      "act": 1,
+      "npc": "타클레이"
+    },
+    "사라진 은총": {
+      "act": 6,
+      "npc": "릴리"
+    },
+    "검은 승병": {
+      "act": 2,
+      "npc": "그루스트"
+    },
+    "사랑의 행방": {
+      "act": 3,
+      "npc": "마라모아"
+    },
+    "자비로운 임무": {
+      "act": 1,
+      "npc": "네사"
+    },
+    "오른팔 잘라내기": {
+      "act": 3,
+      "npc": "마라모아"
+    },
+    "예리하고 잔혹한": {
+      "act": 2,
+      "npc": "실크"
+    },
+    "갇힌 덩치1": {
+      "act": 1,
+      "npc": "네사"
+    },
+    "갇힌 덩치2": {
+      "act": 1,
+      "npc": "타클레이"
+    },
+    "영원한 악몽": {
+      "act": 4,
+      "npc": "디알라"
+    },
+    "문제의 근원": {
+      "act": 2,
+      "npc": ""
+    },
+    "사이렌의 노래": {
+      "act": 1,
+      "npc": "네사"
+    }
+  },
+  "quicksilver flask": {
+    "name": "수은 플라스크",
+    "attribute": 2,
+    "quests": {
+      "자비로운 임무": {
+        "quest": []
+      }
+    }
+  },
+  "absolution": {
+    "name": "면죄",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar"
+        ]
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "witch",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "added chaos damage support": {
+    "name": "카오스 피해 추가 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "added cold damage support": {
+    "name": "냉기 피해 추가 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "added fire damage support": {
+    "name": "화염 피해 추가 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "added lightning damage support": {
+    "name": "번개 피해 추가 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar"
+        ]
+      }
+    }
+  },
+  "additional accuracy support": {
+    "name": "정확도 추가 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "advanced traps support": {
+    "name": "향상된 덫 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "alchemist's mark": {
+    "name": "연금술사의 징표",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "사랑의 행방": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "ambush": {
+    "name": "매복",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "ancestral call support": {
+    "name": "선대의 부름 보조",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "ancestral cry": {
+    "name": "선대의 함성",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "anger": {
+    "name": "분노",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "animate guardian": {
+    "name": "수호자 기동",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": []
+      }
+    }
+  },
+  "animate weapon": {
+    "name": "무기 기동",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "arc": {
+    "name": "연쇄 번개",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "arcane cloak": {
+    "name": "비전의 망토",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "arcane surge support": {
+    "name": "비전 쇄도 보조",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "witch"
+        ]
+      },
+      "자비로운 임무": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "arcanist brand": {
+    "name": "신비학자 낙인",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "archmage support": {
+    "name": "대마법사 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "arctic armour": {
+    "name": "한기의 방어구",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "armageddon brand": {
+    "name": "종말의 낙인",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "arrogance support": {
+    "name": "오만 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "arrow nova support": {
+    "name": "화살 산개 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "artillery ballista": {
+    "name": "포대 쇠뇌",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "assassin's mark": {
+    "name": "암살자의 징표",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "shadow",
+          "duelist",
+          "scion"
+        ]
+      }
+    }
+  },
+  "autoexertion": {
+    "name": "자동 전력",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "automation": {
+    "name": "자동화",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": []
+      }
+    }
+  },
+  "ball lightning": {
+    "name": "구형 번개",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "ballista totem support": {
+    "name": "쇠뇌 토템 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "bane": {
+    "name": "파멸",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "barrage": {
+    "name": "연발 사격",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "barrage support": {
+    "name": "연발 사격 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "battlemage's cry": {
+    "name": "전투마법사의 함성",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "bear trap": {
+    "name": "곰 덫",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "behead support": {
+    "name": "참수 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "templar",
+          "scion",
+          "marauder",
+          "duelist"
+        ]
+      }
+    }
+  },
+  "berserk": {
+    "name": "광폭",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "blade blast": {
+    "name": "칼날 폭격",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "blade flurry": {
+    "name": "질풍의 칼날",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "blade trap": {
+    "name": "칼날 덫",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "blade vortex": {
+    "name": "칼날 소용돌이",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "bladefall": {
+    "name": "칼날비",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "bladestorm": {
+    "name": "칼날 폭풍",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    }
+  },
+  "blasphemy support": {
+    "name": "신성 모독 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "blast rain": {
+    "name": "폭발 화살비",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "blastchain mine support": {
+    "name": "연쇄 폭발 지뢰 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "blazing salvo": {
+    "name": "맹렬한 포격",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "blight": {
+    "name": "황폐",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "blind support": {
+    "name": "실명 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "blink arrow": {
+    "name": "점멸 화살",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "block chance reduction support": {
+    "name": "막기 확률 감소 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {}
+  },
+  "blood and sand": {
+    "name": "피와 모래",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "blood rage": {
+    "name": "피의 격노",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "bloodlust support": {
+    "name": "유혈 충동 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "bloodthirst support": {
+    "name": "피에 목마름 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "bodyswap": {
+    "name": "신체 전환",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "bone offering": {
+    "name": "뼈 공물",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "bonechill support": {
+    "name": "사무치는 한기 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "boneshatter": {
+    "name": "뼈 박살",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "brand recall": {
+    "name": "낙인 소환",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "brutality support": {
+    "name": "포악함 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    }
+  },
+  "burning arrow": {
+    "name": "불타는 화살",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "burning damage support": {
+    "name": "화상 피해 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "cast on critical strike support": {
+    "name": "치명타 시 시전 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "cast on death support": {
+    "name": "사망 시 시전 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "cast on melee kill support": {
+    "name": "근접 처치 시 시전 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "cast when damage taken support": {
+    "name": "피격 시 시전 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "cast when stunned support": {
+    "name": "기절 시 시전 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "cast while channelling support": {
+    "name": "집중 유지 중 시전 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "caustic arrow": {
+    "name": "부식성 화살",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "chain hook": {
+    "name": "사슬 갈고리",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    }
+  },
+  "chain support": {
+    "name": "연쇄 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "chance to bleed support": {
+    "name": "출혈 확률 보조",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist"
+        ]
+      },
+      "자비로운 임무": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "chance to flee support": {
+    "name": "도망칠 확률 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "chance to poison support": {
+    "name": "중독 확률 보조",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "shadow"
+        ]
+      },
+      "자비로운 임무": {
+        "quest": [
+          "witch",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "charged dash": {
+    "name": "충전 질주",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "charged mines support": {
+    "name": "충전된 지뢰 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "charged traps support": {
+    "name": "충전된 덫 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "clarity": {
+    "name": "명상",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "cleave": {
+    "name": "회전베기",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "close combat support": {
+    "name": "근접 전투 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "cluster traps support": {
+    "name": "무리 덫 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "cobra lash": {
+    "name": "코브라 채찍",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "cold penetration support": {
+    "name": "냉기 관통 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "cold snap": {
+    "name": "한파",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "cold to fire support": {
+    "name": "냉기 화염 전환 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "combustion support": {
+    "name": "연소 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "concentrated effect support": {
+    "name": "효과 집중 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "conductivity": {
+    "name": "전도성",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "conflagration": {
+    "name": "연소 화재",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger"
+        ]
+      }
+    }
+  },
+  "consecrated path": {
+    "name": "축성의 진격",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "contagion": {
+    "name": "전염",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "controlled blaze support": {
+    "name": "제어된 불길 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "controlled destruction support": {
+    "name": "제어된 파괴 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "witch"
+        ]
+      }
+    }
+  },
+  "conversion trap": {
+    "name": "전향 덫",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "convocation": {
+    "name": "소집",
+    "attribute": 0,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "corrupting cry support": {
+    "name": "타락시키는 비명 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "corrupting fever": {
+    "name": "타락한 열병",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "crackling lance": {
+    "name": "치직대는 창",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    }
+  },
+  "creeping frost": {
+    "name": "엄습하는 서리",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "cremation": {
+    "name": "시체 소각",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "critical strike affliction support": {
+    "name": "치명타 고통 격화 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "cruelty support": {
+    "name": "잔혹 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch",
+          "scion",
+          "duelist"
+        ]
+      }
+    }
+  },
+  "crushing fist": {
+    "name": "타쇄하는 주먹",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "culling strike support": {
+    "name": "마무리 타격 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": []
+      }
+    }
+  },
+  "cursed ground support": {
+    "name": "저주받은 지대 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "cyclone": {
+    "name": "회오리바람",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "damage on full life support": {
+    "name": "최대 생명력 시 피해 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "dark pact": {
+    "name": "어둠의 서약",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "dash": {
+    "name": "질주",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "deadly ailments support": {
+    "name": "치명적인 상태 이상 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "decay support": {
+    "name": "부패 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "decoy totem": {
+    "name": "미끼 토템",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "defiance banner": {
+    "name": "저항의 깃발",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "desecrate": {
+    "name": "모독",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "despair": {
+    "name": "절망",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "destructive link": {
+    "name": "파괴의 연결",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "determination": {
+    "name": "결의",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    }
+  },
+  "detonate dead": {
+    "name": "시체 폭발",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "detonate mines": {
+    "name": "지뢰 폭발",
+    "attribute": 0,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "devour support": {
+    "name": "포식 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "devouring totem": {
+    "name": "포식 토템",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "discharge": {
+    "name": "방출",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": []
+      }
+    }
+  },
+  "discipline": {
+    "name": "단련",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "divine blessing support": {
+    "name": "신성한 축복 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {}
+  },
+  "divine ire": {
+    "name": "신성한 진노",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "divine retribution": {
+    "name": "신성한 응징",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    }
+  },
+  "dominating blow": {
+    "name": "지배의 맹타",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "double strike": {
+    "name": "이중 타격",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "dread banner": {
+    "name": "공포의 깃발",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "dual strike": {
+    "name": "쌍수 타격",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "earthquake": {
+    "name": "지진",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "earthshatter": {
+    "name": "지면 분쇄",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "efficacy support": {
+    "name": "효력 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "witch"
+        ]
+      }
+    }
+  },
+  "elemental army support": {
+    "name": "원소의 군단 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "elemental damage with attacks support": {
+    "name": "공격 시 원소 피해 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar",
+          "marauder"
+        ]
+      }
+    }
+  },
+  "elemental focus support": {
+    "name": "원소 집중 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "elemental hit": {
+    "name": "원소의 일격",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "elemental penetration support": {
+    "name": "원소 관통 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {}
+  },
+  "elemental proliferation support": {
+    "name": "원소 확산 보조",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "templar"
+        ]
+      },
+      "자비로운 임무": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "elemental weakness": {
+    "name": "원소 약화",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "empower support": {
+    "name": "강화 보조",
+    "attribute": 1,
+    "level": 1,
+    "quests": {}
+  },
+  "endurance charge on melee stun support": {
+    "name": "기절 시 인내 충전 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "enduring cry": {
+    "name": "인내의 함성",
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "energy blade": {
+    "name": "에너지 칼날",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "energy leech support": {
+    "name": "에너지 흡수 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "enfeeble": {
+    "name": "쇠약화",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "enhance support": {
+    "name": "향상 보조",
+    "attribute": 2,
+    "level": 1,
+    "quests": {}
+  },
+  "enlighten support": {
+    "name": "계몽 보조",
+    "attribute": 3,
+    "level": 1,
+    "quests": {}
+  },
+  "ensnaring arrow": {
+    "name": "올가미 화살",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "essence drain": {
+    "name": "정수 흡수",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "eternal blessing support": {
+    "name": "영원한 축복 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "ethereal knives": {
+    "name": "천상의 단도",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "marauder",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "eviscerate": {
+    "name": "내장 적출",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "expert retaliation support": {
+    "name": "노련한 보복 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "explosive arrow": {
+    "name": "폭발 화살",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "explosive concoction": {
+    "name": "폭발성 혼합물",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "explosive trap": {
+    "name": "폭발 덫",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "exsanguinate": {
+    "name": "방혈",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "eye of winter": {
+    "name": "겨울의 눈",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "templar",
+          "shadow",
+          "scion",
+          "witch"
+        ]
+      }
+    }
+  },
+  "faster attacks support": {
+    "name": "공격 속도 증가 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "faster casting support": {
+    "name": "시전 속도 증가 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "faster projectiles support": {
+    "name": "투사체 속도 증가 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "feeding frenzy support": {
+    "name": "격분 주입 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "fire penetration support": {
+    "name": "화염 관통 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "fire trap": {
+    "name": "화염 덫",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "fireball": {
+    "name": "화염구",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "firestorm": {
+    "name": "화염 폭풍",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "shadow",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "fist of war support": {
+    "name": "전쟁의 주먹 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "flame dash": {
+    "name": "화염 질주",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "flame link": {
+    "name": "화염의 연결",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "marauder",
+          "templar",
+          "duelist"
+        ]
+      }
+    }
+  },
+  "flame surge": {
+    "name": "화염 쇄도",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "flame wall": {
+    "name": "화염 벽",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "flameblast": {
+    "name": "화염파",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "flamethrower trap": {
+    "name": "화염방사기 덫",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "flamewood support": {
+    "name": "화염나무 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "flammability": {
+    "name": "인화성",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "flesh and stone": {
+    "name": "육체와 돌",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    }
+  },
+  "flesh offering": {
+    "name": "살점 공물",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "flicker strike": {
+    "name": "점멸 타격",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "focused ballista support": {
+    "name": "쇠뇌 집중 사격 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "focused chanelling support": {
+    "name": "집약된 집중 유지 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "shadow",
+          "witch"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "forbidden rite": {
+    "name": "금단의 의식",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "vendor": [
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "fork support": {
+    "name": "갈래 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "fortify support": {
+    "name": "방어 상승 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "freezing pulse": {
+    "name": "동결 파동",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "frenzy": {
+    "name": "격분",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "fresh meat support": {
+    "name": "신선한 고기 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "frigid bond support": {
+    "name": "차디찬 유대 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "frost blades": {
+    "name": "서리 칼날",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "frost bomb": {
+    "name": "서리 폭탄",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "frost shield": {
+    "name": "서리 방패",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "frost wall": {
+    "name": "서리 방벽",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "vendor": [
+          "duelist",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "frostbite": {
+    "name": "동상",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "frostblink": {
+    "name": "서리점멸",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기2": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "frostbolt": {
+    "name": "서리 구체",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "frozen legion": {
+    "name": "얼어붙은 군단",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "galvanic arrow": {
+    "name": "충격 화살",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "galvanic field": {
+    "name": "충격장",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "검은 승병": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "general's cry": {
+    "name": "장군의 함성",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "generosity support": {
+    "name": "관대함 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "glacial cascade": {
+    "name": "빙하 폭포",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    }
+  },
+  "glacial hammer": {
+    "name": "빙하 망치",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    }
+  },
+  "glacial shield swipe": {
+    "name": "빙하 방패 후려치기",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "grace": {
+    "name": "은총",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "greater multiple projectiles support": {
+    "name": "상위 다중 투사체 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "greater volley support": {
+    "name": "상위 사격 공세 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "ground slam": {
+    "name": "대지 강타",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    }
+  },
+  "guardian's blessing support": {
+    "name": "수호자의 축복 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "haste": {
+    "name": "가속",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "hatred": {
+    "name": "증오",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "heavy strike": {
+    "name": "묵직한 타격",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "herald of agony": {
+    "name": "고통의 전령",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "herald of ash": {
+    "name": "재의 전령",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "herald of ice": {
+    "name": "얼음의 전령",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "herald of purity": {
+    "name": "순수의 전령",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "herald of thunder": {
+    "name": "천둥의 전령",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "hex bloom support": {
+    "name": "사술의 꽃 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "hexblast": {
+    "name": "사술 폭발",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "shadow",
+          "templar",
+          "witch",
+          "scion"
+        ]
+      }
+    }
+  },
+  "hextouch support": {
+    "name": "사술 손길 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "high-impact mine support": {
+    "name": "고충격 지뢰 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "holy flame totem": {
+    "name": "신성한 화염 토템",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "hydrosphere": {
+    "name": "물의 구체",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "hypothermia support": {
+    "name": "체온저하 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "ice bite support": {
+    "name": "얼음 쐐기 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "ice crash": {
+    "name": "얼음 충격",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "ice nova": {
+    "name": "얼음 폭발",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "ice shot": {
+    "name": "얼음 화살",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "ice spear": {
+    "name": "얼음 창",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "ice trap": {
+    "name": "얼음 덫",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "icicle mine": {
+    "name": "고드름 지뢰",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "ignite proliferation support": {
+    "name": "점화 확산 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "immolate support": {
+    "name": "번제 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "immortal call": {
+    "name": "불멸의 외침",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "impale support": {
+    "name": "꿰뚫기 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "impending doom support": {
+    "name": "임박한 멸망 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "incinerate": {
+    "name": "소각",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "increased area of effect support": {
+    "name": "효과 범위 증가 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "increased critical damage support": {
+    "name": "치명타 피해 증가 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "increased critical strikes support": {
+    "name": "치명타 증가 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "infernal blow": {
+    "name": "지옥불 맹타",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "infernal cry": {
+    "name": "지옥불 함성",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "infernal legion support": {
+    "name": "지옥불 군단 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "infused channelling support": {
+    "name": "깊어지는 집중 유지 보조",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "innervate support": {
+    "name": "자극 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "inspiration support": {
+    "name": "영감 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "intensify support": {
+    "name": "격화 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "intimidating cry": {
+    "name": "위협의 함성",
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "intuitive link": {
+    "name": "직관의 연결",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "iron grip support": {
+    "name": "강철 손아귀 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "iron will support": {
+    "name": "강철의 의지 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "item rarity support": {
+    "name": "아이템 희귀도 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "kinetic blast": {
+    "name": "역학 폭발",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "kinetic bolt": {
+    "name": "역학 투사체",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "kinetic fusillade": {
+    "name": "역학 일제 사격",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "kinetic instability support": {
+    "name": "역학 불안정성 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "kinetic rain": {
+    "name": "역학 비",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "knockback support": {
+    "name": "밀어내기 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "lacerate": {
+    "name": "피부 찢기",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "lancing steel": {
+    "name": "강철 관통",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "leap slam": {
+    "name": "도약 강타",
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "less duration support": {
+    "name": "지속시간 감소 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "lesser multiple projectiles support": {
+    "name": "하위 다중 투사체 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "life gain on hit support": {
+    "name": "명중 시 생명력 획득 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "life leech support": {
+    "name": "생명력 흡수 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "lifetap support": {
+    "name": "생명력 전환 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar",
+          "marauder"
+        ]
+      }
+    }
+  },
+  "lightning arrow": {
+    "name": "번개 화살",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "lightning conduit": {
+    "name": "번개 도관",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "shadow",
+          "witch",
+          "templar"
+        ]
+      }
+    }
+  },
+  "lightning penetration support": {
+    "name": "번개 관통 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "lightning spire trap": {
+    "name": "번개 첨탑 덫",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "lightning strike": {
+    "name": "번개 타격",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "lightning tendrils": {
+    "name": "덩굴 번개",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "lightning trap": {
+    "name": "번개 덫",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "lightning warp": {
+    "name": "번개 차원 이동",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "living lightning support": {
+    "name": "살아 있는 번개 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "locus mine support": {
+    "name": "궤적 지뢰 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "ranger",
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "maim support": {
+    "name": "힘줄 절단 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "malevolence": {
+    "name": "악의",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "mana leech support": {
+    "name": "마나 흡수 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "manabond": {
+    "name": "마나 결속",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "templar",
+          "witch",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "manaforged arrows support": {
+    "name": "마나벼림 화살 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "mark on hit support": {
+    "name": "명중 시 징표 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "vendor": []
+      }
+    }
+  },
+  "meat shield support": {
+    "name": "육탄 방어 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "melee physical damage support": {
+    "name": "근접 물리 피해 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar"
+        ]
+      }
+    }
+  },
+  "melee splash support": {
+    "name": "근접 범위 피해 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "minefield support": {
+    "name": "지뢰밭 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "minion damage support": {
+    "name": "소환수 피해 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar"
+        ]
+      }
+    }
+  },
+  "minion life support": {
+    "name": "소환수 생명력 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "minion speed support": {
+    "name": "소환수 속도 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "mirage archer support": {
+    "name": "신기루 궁수 보조",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "mirror arrow": {
+    "name": "거울 화살",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "ranger"
+        ]
+      }
+    }
+  },
+  "molten shell": {
+    "name": "용암 방패",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "molten strike": {
+    "name": "용암 타격",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "momentum support": {
+    "name": "기세 보조",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "scion",
+          "ranger"
+        ]
+      },
+      "자비로운 임무": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "more duration support": {
+    "name": "지속시간 증폭 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "multiple totems support": {
+    "name": "다중 토템 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "templar",
+          "marauder"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "multiple traps support": {
+    "name": "다중 덫 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "multistrike support": {
+    "name": "연속타격 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "nightblade support": {
+    "name": "밤의 칼날 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "orb of storms": {
+    "name": "폭풍 보주",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "overcharge support": {
+    "name": "과충전 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "overexertion support": {
+    "name": "전심전력 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      }
+    }
+  },
+  "penance brand": {
+    "name": "속죄의 낙인",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "perforate": {
+    "name": "천공",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "pestilent strike": {
+    "name": "전염성 일격",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "petrified blood": {
+    "name": "피 석화",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "phase run": {
+    "name": "위상 질주",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "physical to lightning support": {
+    "name": "물리 번개 전환 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "pierce support": {
+    "name": "관통 보조",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "scion",
+          "shadow",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "pinpoint support": {
+    "name": "핵심 조준 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "plague bearer": {
+    "name": "독성 운반자",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "poacher's mark": {
+    "name": "밀렵꾼의 징표",
+    "attribute": 2,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "shadow",
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "point blank support": {
+    "name": "근접 사격 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "poisonous concoction": {
+    "name": "독성 혼합물",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "portal": {
+    "name": "포탈",
+    "attribute": 0,
+    "level": 10,
+    "quests": {}
+  },
+  "power charge on critical support": {
+    "name": "치명타 시 권능 충전 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "power siphon": {
+    "name": "권능 착취",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "precision": {
+    "name": "정밀함",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "predator support": {
+    "name": "포식자 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "pride": {
+    "name": "자부심",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "prismatic burst support": {
+    "name": "분광 격발 보조",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "scion"
+        ]
+      },
+      "자비로운 임무": {
+        "vendor": [
+          "templar",
+          "shadow",
+          "witch",
+          "scion"
+        ]
+      }
+    }
+  },
+  "protective link": {
+    "name": "보호의 연결",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "vendor": [
+          "scion",
+          "marauder",
+          "templar"
+        ]
+      }
+    }
+  },
+  "pulverise support": {
+    "name": "분쇄 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "puncture": {
+    "name": "관통상",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "punishment": {
+    "name": "응징",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "purifying flame": {
+    "name": "정화의 불길",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "purity of elements": {
+    "name": "원소의 순수함",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "purity of fire": {
+    "name": "불의 순수함",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "purity of ice": {
+    "name": "얼음의 순수함",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "purity of lightning": {
+    "name": "번개의 순수함",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "pyroclast mine": {
+    "name": "화산탄 지뢰",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "quickstep": {
+    "name": "빠른 걸음",
+    "attribute": 0,
+    "level": 1,
+    "quests": {}
+  },
+  "rage support": {
+    "name": "격노 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "rage vortex": {
+    "name": "격노 소용돌이",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "rain of arrows": {
+    "name": "화살비",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "raise spectre": {
+    "name": "망령 소환",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "raise zombie": {
+    "name": "좀비 소환",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "rallying cry": {
+    "name": "집결의 함성",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "reap": {
+    "name": "낫질",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "reave": {
+    "name": "약탈",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "rejuvenation totem": {
+    "name": "회복 토템",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "rending steel": {
+    "name": "강철 분리",
+    "attribute": 1,
+    "level": 12,
+    "quests": {}
+  },
+  "returning projectiles support": {
+    "name": "돌아오는 투사체 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "righteous fire": {
+    "name": "정의의 화염",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "rolling magma": {
+    "name": "몰려오는 마그마",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "rupture support": {
+    "name": "파열 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      }
+    }
+  },
+  "ruthless support": {
+    "name": "무자비 보조",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "marauder"
+        ]
+      },
+      "자비로운 임무": {
+        "quest": [
+          "templar",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "sacred wisps support": {
+    "name": "신성한 도깨비불 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "sacrifice support": {
+    "name": "희생 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "sadism support": {
+    "name": "가학증 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "scorching ray": {
+    "name": "작열 광선",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "scourge arrow": {
+    "name": "재앙의 화살",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "searing bond": {
+    "name": "불타는 굴레",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "second wind support": {
+    "name": "새로운 활력 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "seismic cry": {
+    "name": "지진 함성",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "seismic trap": {
+    "name": "지진 덫",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "shattering steel": {
+    "name": "강철 파편",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "shield charge": {
+    "name": "방패 돌진",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "vendor": []
+      },
+      "로아 알 깨트리기2": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ]
+      }
+    }
+  },
+  "shield crush": {
+    "name": "방패 타쇄",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "shock nova": {
+    "name": "충격 폭발",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "shockwave support": {
+    "name": "충격파 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "templar",
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "shockwave totem": {
+    "name": "충격파 토템",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "shrapnel ballista": {
+    "name": "파편 쇠뇌",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "siege ballista": {
+    "name": "공성 쇠뇌",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "sigil of power": {
+    "name": "힘의 부적",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "siphoning trap": {
+    "name": "착취 덫",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "slower projectiles support": {
+    "name": "투사체 속도 감소 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      }
+    }
+  },
+  "smite": {
+    "name": "징벌",
+    "attribute": 1,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "smoke mine": {
+    "name": "연막 지뢰",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "snipe": {
+    "name": "저격",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "sniper's mark": {
+    "name": "저격수의 징표",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "somatic shell": {
+    "name": "신체의 껍질",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "soul link": {
+    "name": "영혼의 연결",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "soulrend": {
+    "name": "영혼 분리",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "spark": {
+    "name": "전기불꽃",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "spectral helix": {
+    "name": "영체 나선",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "scion"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "spectral shield throw": {
+    "name": "환영 방패 투척",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "spectral throw": {
+    "name": "환영 무기 투척",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "templar"
+        ]
+      }
+    }
+  },
+  "spell cascade support": {
+    "name": "연속 주문 보조",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "spell echo support": {
+    "name": "주문 메아리 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "spell totem support": {
+    "name": "주문 토템 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "marauder",
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "spellblade support": {
+    "name": "주문칼날 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "spellslinger": {
+    "name": "주문투척",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "spirit offering": {
+    "name": "영혼 공물",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "split arrow": {
+    "name": "분할 화살",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "splitting steel": {
+    "name": "강철 분할",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "scion",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "static strike": {
+    "name": "정전기 타격",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "문제의 근원": {
+        "quest": [
+          "templar"
+        ]
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "steelskin": {
+    "name": "강철피부",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "marauder"
+        ]
+      },
+      "로아 알 깨트리기2": {
+        "vendor": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ]
+      }
+    }
+  },
+  "storm brand": {
+    "name": "폭풍의 낙인",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "storm burst": {
+    "name": "폭풍 점사",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "storm call": {
+    "name": "폭풍 부름",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "storm rain": {
+    "name": "폭풍우",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "shadow",
+          "scion",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "stormbind": {
+    "name": "폭풍 연대",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "stormblast mine": {
+    "name": "태풍 파열 지뢰",
+    "attribute": 3,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "stun support": {
+    "name": "기절 보조",
+    "attribute": 1,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "summon carrion golem": {
+    "name": "부패 골렘 소환",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "summon chaos golem": {
+    "name": "카오스 골렘 소환",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "summon flame golem": {
+    "name": "화염 골렘 소환",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "summon holy relic": {
+    "name": "신성한 유물 소환",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "summon ice golem": {
+    "name": "얼음 골렘 소환",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "summon lightning golem": {
+    "name": "번개 골렘 소환",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "summon phantasm support": {
+    "name": "환영 소환 보조",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "summon raging spirit": {
+    "name": "격노의 유령 소환",
+    "attribute": 3,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "summon reaper": {
+    "name": "수확자 소환",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "summon skeletons": {
+    "name": "해골 소환",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "summon skitterbots": {
+    "name": "원격 기폭 장치 소환",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "summon stone golem": {
+    "name": "돌 골렘 소환",
+    "attribute": 1,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "marauder",
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "sunder": {
+    "name": "산산조각",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "sweep": {
+    "name": "휩쓸기",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "templar"
+        ]
+      }
+    }
+  },
+  "swift affliction support": {
+    "name": "고통 격화 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "swift assembly support": {
+    "name": "재빠른 조립 보조",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "swiftbrand support": {
+    "name": "재빠른 낙인 보조",
+    "attribute": 3,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "swordstorm": {
+    "name": "검의 폭풍",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    }
+  },
+  "tectonic slam": {
+    "name": "지층 강타",
+    "attribute": 1,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "tempest shield": {
+    "name": "폭풍의 방패",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "temporal chains": {
+    "name": "시간의 사슬",
+    "attribute": 2,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "witch",
+          "scion",
+          "shadow",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "temporal rift": {
+    "name": "시간의 균열",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "ranger",
+          "witch"
+        ]
+      }
+    }
+  },
+  "thunderstorm": {
+    "name": "뇌우",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "tornado": {
+    "name": "회오리",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "tornado shot": {
+    "name": "회오리 사격",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "toxic rain": {
+    "name": "맹독성 비",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "trap and mine damage support": {
+    "name": "덫 및 지뢰 피해 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "trap support": {
+    "name": "덫 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "trauma support": {
+    "name": "외상 보조",
+    "attribute": 1,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "trinity support": {
+    "name": "삼위일체 보조",
+    "attribute": 3,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "witch",
+          "shadow",
+          "duelist",
+          "ranger",
+          "templar",
+          "scion"
+        ]
+      }
+    }
+  },
+  "unbound ailments support": {
+    "name": "벌어지는 상처 보조",
+    "attribute": 3,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "unearth": {
+    "name": "발굴",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "unleash support": {
+    "name": "촉발 보조",
+    "attribute": 3,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "urgent orders support": {
+    "name": "긴급 명령 보조",
+    "attribute": 1,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "vampiric link": {
+    "name": "흡혈의 연결",
+    "attribute": 2,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "vendor": [
+          "scion",
+          "duelist",
+          "ranger"
+        ]
+      }
+    }
+  },
+  "vengeful cry": {
+    "name": "복수의 함성",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion"
+        ]
+      }
+    }
+  },
+  "venom gyre": {
+    "name": "독액 선회",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "vicious projectiles support": {
+    "name": "포악한 투사체 보조",
+    "attribute": 2,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      },
+      "문제의 근원": {
+        "quest": [
+          "marauder"
+        ]
+      }
+    }
+  },
+  "vigilant strike": {
+    "name": "경계 타격",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "vile toxins support": {
+    "name": "끔찍한 독소 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "viper strike": {
+    "name": "맹독 타격",
+    "attribute": 2,
+    "level": 1,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "눈 앞의 적": {
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "vitality": {
+    "name": "활력",
+    "attribute": 1,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "templar",
+          "marauder",
+          "duelist",
+          "scion"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "void manipulation support": {
+    "name": "공허 조작 보조",
+    "attribute": 2,
+    "level": 8,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치1": {
+        "quest": [
+          "witch",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "void sphere": {
+    "name": "공허 구체",
+    "attribute": 3,
+    "level": 34,
+    "quests": {
+      "봉인 해제": {
+        "quest": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "witch",
+          "templar",
+          "shadow",
+          "scion"
+        ]
+      }
+    }
+  },
+  "volatile dead": {
+    "name": "시체 불덩이",
+    "attribute": 2,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "witch",
+          "shadow"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "volatility support": {
+    "name": "일촉즉발 보조",
+    "attribute": 1,
+    "level": 18,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "예리하고 잔혹한": {
+        "quest": [
+          "marauder"
+        ],
+        "vendor": [
+          "marauder",
+          "templar",
+          "duelist",
+          "scion"
+        ]
+      }
+    }
+  },
+  "volcanic fissure": {
+    "name": "화산 균열",
+    "attribute": 1,
+    "level": 12,
+    "quests": {
+      "문제의 근원": {
+        "quest": [
+          "marauder"
+        ]
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "marauder"
+        ]
+      }
+    }
+  },
+  "volley support": {
+    "name": "사격 공세 보조",
+    "attribute": 2,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "자비로운 임무": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "voltaxic burst": {
+    "name": "전도성 격발",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "shadow"
+        ],
+        "vendor": [
+          "shadow",
+          "scion",
+          "witch"
+        ]
+      }
+    }
+  },
+  "vortex": {
+    "name": "소용돌이",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "vulnerability": {
+    "name": "취약성",
+    "attribute": 1,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "templar",
+          "marauder",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "wall of force": {
+    "name": "힘의 벽",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "war banner": {
+    "name": "전쟁 깃발",
+    "attribute": 1,
+    "level": 4,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "로아 알 깨트리기1": {
+        "quest": [
+          "duelist"
+        ],
+        "vendor": [
+          "duelist",
+          "marauder",
+          "ranger",
+          "scion",
+          "templar"
+        ]
+      }
+    }
+  },
+  "warlord's mark": {
+    "name": "전쟁군주의 징표",
+    "attribute": 1,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "marauder",
+          "duelist"
+        ],
+        "vendor": [
+          "marauder",
+          "duelist",
+          "ranger",
+          "scion"
+        ]
+      }
+    }
+  },
+  "wave of conviction": {
+    "name": "신념의 파도",
+    "attribute": 3,
+    "level": 16,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "검은 승병": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "whirling blades": {
+    "name": "칼날 선회",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "wild strike": {
+    "name": "사나운 타격",
+    "attribute": 2,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "quest": [
+          "ranger"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "windburst support": {
+    "name": "바람 격발 보조",
+    "attribute": 2,
+    "level": 31,
+    "quests": {
+      "운명의 흔적": {
+        "quest": [
+          "duelist",
+          "ranger"
+        ],
+        "vendor": []
+      }
+    }
+  },
+  "winter orb": {
+    "name": "겨울 보주",
+    "attribute": 3,
+    "level": 28,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "오른팔 잘라내기": {
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "wintertide brand": {
+    "name": "겨울의 낙인",
+    "attribute": 3,
+    "level": 12,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "문제의 근원": {
+        "quest": [
+          "witch"
+        ]
+      },
+      "사이렌의 노래": {
+        "quest": [
+          "templar"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "wither": {
+    "name": "위축",
+    "attribute": 3,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "witch"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "withering step": {
+    "name": "고사시키는 걸음",
+    "attribute": 2,
+    "level": 10,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "갇힌 덩치2": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow",
+          "witch"
+        ]
+      }
+    }
+  },
+  "withering touch support": {
+    "name": "위축의 손길 보조",
+    "attribute": 2,
+    "level": 38,
+    "quests": {
+      "영원한 악몽": {
+        "quest": [
+          "ranger",
+          "shadow"
+        ],
+        "vendor": [
+          "duelist",
+          "ranger",
+          "scion",
+          "shadow"
+        ]
+      }
+    }
+  },
+  "wrath": {
+    "name": "진노",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "shadow",
+          "scion"
+        ],
+        "vendor": [
+          "ranger",
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  },
+  "zealotry": {
+    "name": "열광",
+    "attribute": 3,
+    "level": 24,
+    "quests": {
+      "운명의 흔적": {
+        "vendor": []
+      },
+      "사랑의 행방": {
+        "quest": [
+          "witch",
+          "templar",
+          "scion"
+        ],
+        "vendor": [
+          "scion",
+          "shadow",
+          "templar",
+          "witch"
+        ]
+      }
+    }
+  }
+}
