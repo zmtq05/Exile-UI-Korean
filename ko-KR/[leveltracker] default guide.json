@@ -673,7 +673,7 @@
       ],
       "lines": [
         "(img:0) 모서리 따라 이동, (img:waypoint) 확보",
-        "areaid1_3_7 진입 ;; 전장",
+        "areaid1_3_7 진입 ;; 전쟁터",
         "(hint)__ 구석 탐색"
       ]
     },
@@ -715,7 +715,7 @@
         "yes"
       ],
       "lines": [
-        "areaid1_3_7 찾아서 진입 ;; 전장",
+        "areaid1_3_7 찾아서 진입 ;; 전쟁터",
         "(hint)__ 남은 구석 탐색"
       ]
     },
@@ -735,7 +735,7 @@
       ],
       "lines": [
         "하간: <기술서>",
-        "(img:waypoint) 이동: areaid1_3_7 ;; 전장"
+        "(img:waypoint) 이동: areaid1_3_7 ;; 전쟁터"
       ]
     },
     {
@@ -744,7 +744,7 @@
         "yes"
       ],
       "lines": [
-        "(img:waypoint) 이동: areaid1_3_7 ;; 전장"
+        "(img:waypoint) 이동: areaid1_3_7 ;; 전쟁터"
       ]
     },
     [
