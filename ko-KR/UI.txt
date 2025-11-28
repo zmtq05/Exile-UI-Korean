@@ -472,9 +472,9 @@
 		lvltracker_editor_condition	=	"no condition"
 
 		lvltracker_itembuy		=	"buy items"
-		lvltracker_gempickups		=	"gem pickups"					;## a manager to adjust when gems should be picked up
-		lvltracker_gemreward		=	"take:"						;## when handing in quests, the guide will prompt you to take specific rewards
-		lvltracker_gembuy		=	"buy gems"					;## the guide will tell you to buy gems that you unlocked via questing
+		lvltracker_gempickups		=	"젬 습득"					;## a manager to adjust when gems should be picked up
+		lvltracker_gemreward		=	"받기:"						;## when handing in quests, the guide will prompt you to take specific rewards
+		lvltracker_gembuy		=	"젬 구매"					;## the guide will tell you to buy gems that you unlocked via questing
 		lvltracker_gembuy		=	"(hold omni-key)"
 
 
@@ -991,29 +991,29 @@
 ;#####################################################
 
 ;## these strings are displayed/required in the "act-tracker" section of the settings menu
-		m_lvltracker_enable		=	"enable the act-tracker feature"
-		m_lvltracker_timer		=	"enable timer"
-		m_lvltracker_pause		=	"pause timer in hideouts"
-		m_lvltracker_fade		=	"fade out after x seconds:"
-		m_lvltracker_fade		=	"fade in on mouse-hover"
-		m_lvltracker_gear		=	"gear tracker"
-		m_lvltracker_recommend		=	"lvl recommendations"
-		m_lvltracker_hotkeys		=	"enable page-hotkeys"
-		m_lvltracker_poboverlays	=	"pob overlay settings:"
-		m_lvltracker_pobgems		=	"gems: use toggle instead of hold"
-		m_lvltracker_pobmanual		=	"tree: use screen-caps instead of schematics"
-		m_lvltracker_pob		=	"pob: middle-click opens screen-cap menu"
-		m_lvltracker_screencap		=	"screen-cap menu"
-		m_lvltracker_guide		=	"guides:"
-		m_lvltracker_incompatible	=	"incompatible guide-data,;update required"
-		m_lvltracker_treeclear		=	"delete data"
-		m_lvltracker_leaguestart	=	"league-start"
-		m_lvltracker_optionals		=	"optionals"			;## refers to optional loot, quests, etc.
-		m_lvltracker_bandit		=	"bandit"
-		m_lvltracker_bandits		=	"alira"
-		m_lvltracker_bandits		=	"kraityn"
-		m_lvltracker_bandits		=	"oak"
-		m_lvltracker_treehotkey		=	"hotkey to close trees:"	;## optional setting for users who don't close the in-game tree with ESC
+		m_lvltracker_enable		=	"act-tracker 활성화"
+		m_lvltracker_timer		=	"타이머 활성화"
+		m_lvltracker_pause		=	"은신처에서 타이머 일시정지"
+		m_lvltracker_fade		=	"x초 후 페이드 아웃"
+		m_lvltracker_fade		=	"호버 시 페이드 인"
+		m_lvltracker_gear		=	"장비 트래커"
+		m_lvltracker_recommend		=	"추천 레벨 표시"
+		m_lvltracker_hotkeys		=	"핫키 활성화"
+		m_lvltracker_poboverlays	=	"pob 오버레이 설정:"
+		m_lvltracker_pobgems		=	"젬: 홀드 대신 토글 사용"
+		m_lvltracker_pobmanual		=	"트리: 스키마틱 대신 화면 캡처 사용"
+		m_lvltracker_pob		=	"pob: 휠 클릭으로 화면 캡처 메뉴 열기"
+		m_lvltracker_screencap		=	"화면 캡처 메뉴"
+		m_lvltracker_guide		=	"가이드:"
+		m_lvltracker_incompatible	=	"호환되지 않는 가이드 데이터,;업데이트 필요"
+		m_lvltracker_treeclear		=	"데이터 삭제"
+		m_lvltracker_leaguestart	=	"리그 시작"
+		m_lvltracker_optionals		=	"선택 사항"			;## refers to optional loot, quests, etc.
+		m_lvltracker_bandit		=	"도적"
+		m_lvltracker_bandits		=	"알리라"
+		m_lvltracker_bandits		=	"크레이틴"
+		m_lvltracker_bandits		=	"오크"
+		m_lvltracker_treehotkey		=	"트리 닫기 단축키:"	;## optional setting for users who don't close the in-game tree with ESC
 
 
 
