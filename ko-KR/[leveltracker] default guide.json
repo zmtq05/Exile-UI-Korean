@@ -1369,7 +1369,7 @@
       "(img:arena) 투기장 찾기: (img:waypoint)의 (img:5) 방향이 막혔는가?",
       "(hint)_ - 예: 멀리 (img:3) 방향 이동. (img:2) 확인 후 (img:0)",
       "(hint)_ - 아니오: (img:5) 방향, 길 열리면 (img:7) 방향",
-      "초아고스 처치 || (img:portal) 이동: areaid2_6_town ;; 라이온아이 초소"
+      "소아고스 처치 || (img:portal) 이동: areaid2_6_town ;; 라이온아이 초소"
     ],
     [
       "판테온 선택",
